@@ -1,0 +1,142 @@
+{
+	"ID": "9c533e544d6105e67c1da78fa66c13d6",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "25a788034eb4ecdf28ae9181bd25c81a",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "RadarBuilding",
+		"Transform": {
+			"Scale": {
+				"X": 1.0,
+				"Y": 2.0,
+				"Z": 1.0
+			}
+		}
+	},
+	{
+		"ID": "f1cef95e44aff862d84fc78e61753007",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "25a788034eb4ecdf28ae9181bd25c81a",
+		"Name": "Radar_Base",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 620.1165161132813
+			}
+		},
+		"Model": "aeebf1704395d866a5470ea969453051",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "9ee7a3ea494977e618ee5287c966bf66",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "0f18f0214f7b96b3ff8adda07bcd16c9",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "25a788034eb4ecdf28ae9181bd25c81a",
+		"Name": "Rotator",
+		"Transform": {
+			"Translation": {
+				"X": -95.20021057128906,
+				"Y": 300.77362060546877,
+				"Z": -25.482133865356447
+			}
+		}
+	},
+	{
+		"ID": "df58b9e34b63bcfc1a7f3080765bb3a2",
+		"TypeName": "Game.ObjectRotation",
+		"ParentID": "0f18f0214f7b96b3ff8adda07bcd16c9",
+		"V": {
+	"rotationDegrees": 30.0
+}
+	},
+	{
+		"ID": "dce6fdd64c2db40c888d59b0a1e3a92d",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "0f18f0214f7b96b3ff8adda07bcd16c9",
+		"Name": "Radar_Motor",
+		"Transform": {
+			"Translation": {
+				"X": 95.20021057128906,
+				"Y": -300.77362060546877,
+				"Z": 645.5986328125
+			}
+		},
+		"Model": "4a68bcdd495f72d642f216a1cd689f7d",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "6efbeb9842c31487c3c9afa438b07fa5",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "0f18f0214f7b96b3ff8adda07bcd16c9",
+		"Name": "Radar_Dish",
+		"Transform": {
+			"Translation": {
+				"X": 95.20021057128906,
+				"Y": -300.77362060546877,
+				"Z": 645.5986328125
+			}
+		},
+		"Model": "73f7466c4649ed4fe3db33a9a6755c24",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

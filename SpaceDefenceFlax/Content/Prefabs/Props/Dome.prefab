@@ -1,0 +1,30 @@
+{
+	"ID": "273bfd5a40cd11d54a03bf8fe87f7070",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "fe2ebff6407a1969b2a8f1a8f08f36ad",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Dome",
+		"Model": "d6bd65ea4165083d8f1639aae1b349b3",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "8ebd3386496397c1dcc92ba560eba984",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

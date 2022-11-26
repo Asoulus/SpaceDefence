@@ -1,0 +1,7791 @@
+{
+	"ID": "9d831f9a46185148468006b9c9b7b561",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6228,
+	"Data": [
+		{
+			"ID": "9d831f9a46185148468006b9c9b7b561",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "9143752d45d5d22309d54086bd4e6aa3",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9d831f9a46185148468006b9c9b7b561",
+			"Name": "###LIGHTING###"
+		},
+		{
+			"ID": "4e191ecb4ac29b09334ee682eefd6ceb",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "9143752d45d5d22309d54086bd4e6aa3",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			},
+			"Brightness": 0.0
+		},
+		{
+			"ID": "82bd00ad47151b9d3a33329370552b19",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "9143752d45d5d22309d54086bd4e6aa3",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "4e191ecb4ac29b09334ee682eefd6ceb"
+		},
+		{
+			"ID": "526b6a1046f9f63ceb537aa4a87cf537",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "9143752d45d5d22309d54086bd4e6aa3",
+			"Name": "SkyLight",
+			"Brightness": 0.10000000149011612,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "d5e2e7f846522b61d3ac159c76278f9b",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "9143752d45d5d22309d54086bd4e6aa3",
+			"Name": "PointLight",
+			"Transform": {
+				"Translation": {
+					"X": 451.8974609375,
+					"Y": 160.781982421875,
+					"Z": 673.2821655273438
+				}
+			},
+			"Color": {
+				"R": 0.0,
+				"G": 1.0,
+				"B": 0.9698543548583984,
+				"A": 1.0
+			},
+			"Brightness": 0.5
+		},
+		{
+			"ID": "d544e36e4529dbebb120f9b9154d8c71",
+			"TypeName": "FlaxEngine.PointLight",
+			"ParentID": "9143752d45d5d22309d54086bd4e6aa3",
+			"Name": "PointLight 0",
+			"Transform": {
+				"Translation": {
+					"X": -1121.4544677734376,
+					"Y": 72.88821411132813,
+					"Z": 751.8396606445313
+				}
+			},
+			"Color": {
+				"R": 0.0,
+				"G": 1.0,
+				"B": 0.9698543548583984,
+				"A": 1.0
+			},
+			"Brightness": 0.5
+		},
+		{
+			"ID": "6da14f7e447aa2bc1788c48c087cd500",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9d831f9a46185148468006b9c9b7b561",
+			"Name": "###MANAGERS###"
+		},
+		{
+			"ID": "f2e9a3e44773b2c0fbe4e3af8ac47cf7",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "6da14f7e447aa2bc1788c48c087cd500",
+			"Name": "SubmenuManager"
+		},
+		{
+			"ID": "638f56b84fe9e4a6ccf09eaab6d6447b",
+			"TypeName": "Game.SubmenuManager",
+			"ParentID": "f2e9a3e44773b2c0fbe4e3af8ac47cf7",
+			"V": {}
+		},
+		{
+			"ID": "ef1dc70d4b01d5ccd0393db8d1325986",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "6da14f7e447aa2bc1788c48c087cd500",
+			"Name": "LevelLoader"
+		},
+		{
+			"ID": "3571775e45fd178ed9cbdb91a8a4419f",
+			"TypeName": "Game.LevelLoader",
+			"ParentID": "ef1dc70d4b01d5ccd0393db8d1325986",
+			"V": {
+	"blackScreen": "ba4e3c8643d3614724f442a0c4ec5a46"
+}
+		},
+		{
+			"ID": "b8146af54d0ae43b94701e81c3b46021",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9d831f9a46185148468006b9c9b7b561",
+			"Name": "###UI###"
+		},
+		{
+			"ID": "bb9308824007cef34f15d5b3b4f5d2d8",
+			"TypeName": "FlaxEngine.UICanvas",
+			"ParentID": "b8146af54d0ae43b94701e81c3b46021",
+			"Name": "MainCanvas",
+			"Transform": {
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"V": {}
+		},
+		{
+			"ID": "de15d5054276435a408408a5c6b939b2",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "bb9308824007cef34f15d5b3b4f5d2d8",
+			"Name": "Background",
+			"Control": "FlaxEngine.GUI.Panel",
+			"Data": {
+	"ScrollBars": 0,
+	"ScrollBarsSize": 14.0,
+	"AlwaysShowScrollbars": false,
+	"ScrollMargin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "2a2612ae47af9b634ab2e999e75ceb05",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "de15d5054276435a408408a5c6b939b2",
+			"Name": "LeftPanel",
+			"Control": "FlaxEngine.GUI.Panel",
+			"Data": {
+	"ScrollBars": 0,
+	"ScrollBarsSize": 14.0,
+	"AlwaysShowScrollbars": false,
+	"ScrollMargin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 400.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.0,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.294444442,
+		"G": 0.294444442,
+		"B": 0.294444442,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "6ca822034a4778af0dfa0bb2607ce036",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "2a2612ae47af9b634ab2e999e75ceb05",
+			"Name": "TitleBackground",
+			"Transform": {
+				"Translation": {
+					"X": 2.0,
+					"Y": 2.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Panel",
+			"Data": {
+	"ScrollBars": 0,
+	"ScrollBarsSize": 14.0,
+	"AlwaysShowScrollbars": false,
+	"ScrollMargin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 2.0,
+		"Right": 2.0,
+		"Top": 2.0,
+		"Bottom": 200.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.9490196,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "5f63a9da4f33748811135cbde9f4797f",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "6ca822034a4778af0dfa0bb2607ce036",
+			"Name": "Title",
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "Space \nDefence",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 0.991824,
+		"G": 1.0,
+		"B": 0.940164864,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 1,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "34fdcb474ee010401b8a159631972417",
+		"Size": 50
+	},
+	"Material": null,
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": false,
+	"AutoHeight": false,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "cef29b034ec67922b2a7baaa9bb0ff5d",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "2a2612ae47af9b634ab2e999e75ceb05",
+			"Name": "ButtonsPanel",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 200.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.VerticalPanel",
+			"Data": {
+	"Spacing": 5.0,
+	"Offset": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AutoSize": false,
+	"Margin": {
+		"Left": 30.0,
+		"Right": 30.0,
+		"Top": 2.0,
+		"Bottom": 2.0
+	},
+	"ClipChildren": true,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 200.0,
+		"Bottom": 8.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "7985cdf944247ea1c80b1db81daa7299",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "cef29b034ec67922b2a7baaa9bb0ff5d",
+			"Name": "Blank",
+			"Transform": {
+				"Translation": {
+					"X": 30.0,
+					"Y": 2.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Spacer",
+			"Data": {
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 30.0,
+		"Right": 340.0,
+		"Top": 2.0,
+		"Bottom": 115.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "aaf1d8eb4e59f2956054e89c6c0b3915",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "cef29b034ec67922b2a7baaa9bb0ff5d",
+			"Name": "Play_Btn",
+			"Transform": {
+				"Translation": {
+					"X": 30.0,
+					"Y": 122.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 0.0,
+		"G": 0.9490196,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": "play",
+	"Font": {
+		"Font": "34fdcb474ee010401b8a159631972417",
+		"Size": 18
+	},
+	"TextMaterial": null,
+	"BackgroundBrush": null,
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 1.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 30.0,
+		"Right": 340.0,
+		"Top": 122.0,
+		"Bottom": 100.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.155555546,
+		"G": 0.155555546,
+		"B": 0.155555546,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "0ffada4c42cb5cc3f176efbe6c12cee6",
+			"TypeName": "Game.MenuButton",
+			"ParentID": "aaf1d8eb4e59f2956054e89c6c0b3915",
+			"V": {
+	"selector": "acccc25d4fb9cae1cb8d7e94b1f1d5a3",
+	"demoScene": "91af812e4fc272926a727faa0d218d46",
+	"level_Scene": "d1b338b34fc9d353f06e72b96f3f5a49",
+	"pressSound": "1f26a6b94298bcc7cce0d0bfd907f9b1",
+	"buttonType": "Play",
+	"Buttons": [
+		"aaf1d8eb4e59f2956054e89c6c0b3915"
+	]
+}
+		},
+		{
+			"ID": "acccc25d4fb9cae1cb8d7e94b1f1d5a3",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "aaf1d8eb4e59f2956054e89c6c0b3915",
+			"IsActive": false,
+			"Name": "Selector",
+			"Control": "FlaxEngine.GUI.Panel",
+			"Data": {
+	"ScrollBars": 0,
+	"ScrollBarsSize": 14.0,
+	"AlwaysShowScrollbars": false,
+	"ScrollMargin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "0e0ec1804e4c316b269d798dbaac6fb7",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "acccc25d4fb9cae1cb8d7e94b1f1d5a3",
+			"Name": "Top",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -43.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 2.0,
+		"Top": -43.0,
+		"Bottom": 92.0
+	},
+	"Scale": {
+		"X": 2.0,
+		"Y": 0.075
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "42d9ab5e46c17d9e5a48a8af17e53cfb",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "acccc25d4fb9cae1cb8d7e94b1f1d5a3",
+			"Name": "Bottom",
+			"Transform": {
+				"Translation": {
+					"X": -1.0,
+					"Y": -48.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": -1.0,
+		"Right": 1.0,
+		"Top": -48.0,
+		"Bottom": 92.0
+	},
+	"Scale": {
+		"X": 2.0,
+		"Y": 0.075
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "5577357c488fbc8386b4f3b0ddd540b0",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "acccc25d4fb9cae1cb8d7e94b1f1d5a3",
+			"Name": "Right",
+			"Transform": {
+				"Translation": {
+					"X": 220.0,
+					"Y": 2.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 1.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 220.0,
+		"Right": -443.0,
+		"Top": 2.0,
+		"Bottom": 2.0
+	},
+	"Scale": {
+		"X": -0.02,
+		"Y": 1.2
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "6a76f04a44f0cfe4d37c4c90c160663c",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "acccc25d4fb9cae1cb8d7e94b1f1d5a3",
+			"Name": "Left",
+			"Transform": {
+				"Translation": {
+					"X": 224.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 224.0,
+		"Right": -443.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": -0.02,
+		"Y": 1.2
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "cdf4bc2b4ac38fd6dcf685852b80bc36",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "cef29b034ec67922b2a7baaa9bb0ff5d",
+			"Name": "Spacer_1",
+			"Transform": {
+				"Translation": {
+					"X": 30.0,
+					"Y": 227.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Spacer",
+			"Data": {
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 30.0,
+		"Right": 340.0,
+		"Top": 227.0,
+		"Bottom": 100.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "1f8102f2402db5e1474c109603669133",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "cef29b034ec67922b2a7baaa9bb0ff5d",
+			"Name": "Demo_Btn",
+			"Transform": {
+				"Translation": {
+					"X": 30.0,
+					"Y": 332.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 0.0,
+		"G": 0.9490196,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": "Demo",
+	"Font": {
+		"Font": "34fdcb474ee010401b8a159631972417",
+		"Size": 18
+	},
+	"TextMaterial": null,
+	"BackgroundBrush": null,
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 1.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 30.0,
+		"Right": 340.0,
+		"Top": 332.0,
+		"Bottom": 100.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.155555546,
+		"G": 0.155555546,
+		"B": 0.155555546,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "88c7652a4028dc6a53ea19975fbacbe0",
+			"TypeName": "Game.MenuButton",
+			"ParentID": "1f8102f2402db5e1474c109603669133",
+			"V": {
+	"selector": "a7608b0f449939379d4decbcaf771981",
+	"demoScene": "91af812e4fc272926a727faa0d218d46",
+	"level_Scene": "d1b338b34fc9d353f06e72b96f3f5a49",
+	"pressSound": "1f26a6b94298bcc7cce0d0bfd907f9b1",
+	"buttonType": "Demo",
+	"Buttons": [
+		"1f8102f2402db5e1474c109603669133"
+	]
+}
+		},
+		{
+			"ID": "a7608b0f449939379d4decbcaf771981",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "1f8102f2402db5e1474c109603669133",
+			"IsActive": false,
+			"Name": "Selector",
+			"Control": "FlaxEngine.GUI.Panel",
+			"Data": {
+	"ScrollBars": 0,
+	"ScrollBarsSize": 14.0,
+	"AlwaysShowScrollbars": false,
+	"ScrollMargin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "506c3d614791518a269fec8e307d50bc",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "a7608b0f449939379d4decbcaf771981",
+			"Name": "Top",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -43.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 2.0,
+		"Top": -43.0,
+		"Bottom": 92.0
+	},
+	"Scale": {
+		"X": 2.0,
+		"Y": 0.075
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "f70f2e31434f0e17c776a38cabd802aa",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "a7608b0f449939379d4decbcaf771981",
+			"Name": "Bottom",
+			"Transform": {
+				"Translation": {
+					"X": -1.0,
+					"Y": -48.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": -1.0,
+		"Right": 1.0,
+		"Top": -48.0,
+		"Bottom": 92.0
+	},
+	"Scale": {
+		"X": 2.0,
+		"Y": 0.075
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "4a212a954003cc0fe207ef959ec2a892",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "a7608b0f449939379d4decbcaf771981",
+			"Name": "Right",
+			"Transform": {
+				"Translation": {
+					"X": 220.0,
+					"Y": 2.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 1.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 220.0,
+		"Right": -443.0,
+		"Top": 2.0,
+		"Bottom": 2.0
+	},
+	"Scale": {
+		"X": -0.02,
+		"Y": 1.2
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "c74fd25c414b2e0236acf08dd3c52702",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "a7608b0f449939379d4decbcaf771981",
+			"Name": "Left",
+			"Transform": {
+				"Translation": {
+					"X": 224.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 224.0,
+		"Right": -443.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": -0.02,
+		"Y": 1.2
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "6ba3ed40477abdf71f0c7ba2cfc09a19",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "cef29b034ec67922b2a7baaa9bb0ff5d",
+			"Name": "Spacer_2",
+			"Transform": {
+				"Translation": {
+					"X": 30.0,
+					"Y": 437.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Spacer",
+			"Data": {
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 30.0,
+		"Right": 340.0,
+		"Top": 437.0,
+		"Bottom": 100.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "f2386bd8477ea7188c081e889680c533",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "cef29b034ec67922b2a7baaa9bb0ff5d",
+			"Name": "Exit_Btn",
+			"Transform": {
+				"Translation": {
+					"X": 30.0,
+					"Y": 542.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Button",
+			"Data": {
+	"TextColor": {
+		"R": 0.0,
+		"G": 0.9490196,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"Text": "Exit",
+	"Font": {
+		"Font": "34fdcb474ee010401b8a159631972417",
+		"Size": 18
+	},
+	"TextMaterial": null,
+	"BackgroundBrush": null,
+	"BorderColor": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BackgroundColorSelected": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BorderColorSelected": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BackgroundColorHighlighted": {
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
+		"A": 1.0
+	},
+	"BorderColorHighlighted": {
+		"R": 0.41568628,
+		"G": 0.41568628,
+		"B": 0.458823532,
+		"A": 1.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 30.0,
+		"Right": 340.0,
+		"Top": 542.0,
+		"Bottom": 100.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.155555546,
+		"G": 0.155555546,
+		"B": 0.155555546,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "617607894b14da4af7566cba162c888a",
+			"TypeName": "Game.MenuButton",
+			"ParentID": "f2386bd8477ea7188c081e889680c533",
+			"V": {
+	"selector": "fe4a8d4a4707700fd4cfca8a5d6c5da0",
+	"demoScene": "91af812e4fc272926a727faa0d218d46",
+	"level_Scene": "d1b338b34fc9d353f06e72b96f3f5a49",
+	"pressSound": "1f26a6b94298bcc7cce0d0bfd907f9b1",
+	"buttonType": "Exit",
+	"Buttons": [
+		"f2386bd8477ea7188c081e889680c533"
+	]
+}
+		},
+		{
+			"ID": "fe4a8d4a4707700fd4cfca8a5d6c5da0",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "f2386bd8477ea7188c081e889680c533",
+			"IsActive": false,
+			"Name": "Selector",
+			"Control": "FlaxEngine.GUI.Panel",
+			"Data": {
+	"ScrollBars": 0,
+	"ScrollBarsSize": 14.0,
+	"AlwaysShowScrollbars": false,
+	"ScrollMargin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "16b6f46d47e6e3e5f7181ba430d4a2a5",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "fe4a8d4a4707700fd4cfca8a5d6c5da0",
+			"Name": "Top",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -43.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 2.0,
+		"Top": -43.0,
+		"Bottom": 92.0
+	},
+	"Scale": {
+		"X": 2.0,
+		"Y": 0.075
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "29758b684ebf453579b6c7be9315be60",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "fe4a8d4a4707700fd4cfca8a5d6c5da0",
+			"Name": "Bottom",
+			"Transform": {
+				"Translation": {
+					"X": -1.0,
+					"Y": -48.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": -1.0,
+		"Right": 1.0,
+		"Top": -48.0,
+		"Bottom": 92.0
+	},
+	"Scale": {
+		"X": 2.0,
+		"Y": 0.075
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "21c7e9cf468cf9da02afa499f032435f",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "fe4a8d4a4707700fd4cfca8a5d6c5da0",
+			"Name": "Right",
+			"Transform": {
+				"Translation": {
+					"X": 220.0,
+					"Y": 2.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 1.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 220.0,
+		"Right": -443.0,
+		"Top": 2.0,
+		"Bottom": 2.0
+	},
+	"Scale": {
+		"X": -0.02,
+		"Y": 1.2
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "ff1998fb4ca62299f7480aa94c82f1ab",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "fe4a8d4a4707700fd4cfca8a5d6c5da0",
+			"Name": "Left",
+			"Transform": {
+				"Translation": {
+					"X": 224.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.SpriteBrush, FlaxEngine.CSharp",
+		"Sprite": {
+			"Atlas": "3f6a77a749ca3acb391a63afa60ec566",
+			"Index": 1
+		},
+		"Filter": 1
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": false,
+	"CullChildren": false,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 224.0,
+		"Right": -443.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Scale": {
+		"X": -0.02,
+		"Y": 1.2
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "f095247b4e93c169e735d0896e0cbce9",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "cef29b034ec67922b2a7baaa9bb0ff5d",
+			"Name": "Spacer_3",
+			"Transform": {
+				"Translation": {
+					"X": 30.0,
+					"Y": 647.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Spacer",
+			"Data": {
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 30.0,
+		"Right": 340.0,
+		"Top": 647.0,
+		"Bottom": 150.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "ba4e3c8643d3614724f442a0c4ec5a46",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "bb9308824007cef34f15d5b3b4f5d2d8",
+			"IsActive": false,
+			"Name": "BlackScreen",
+			"Transform": {
+				"Orientation": {
+					"X": -1.0,
+					"Y": -4.371138828673793e-8,
+					"Z": -4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"Control": "FlaxEngine.GUI.Panel",
+			"Data": {
+	"ScrollBars": 0,
+	"ScrollBarsSize": 14.0,
+	"AlwaysShowScrollbars": false,
+	"ScrollMargin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": -100.0,
+		"Top": 0.0,
+		"Bottom": -30.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 1.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "0f6acf8b4ef66bbc681cddb9eab8c67e",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9d831f9a46185148468006b9c9b7b561",
+			"Name": "##AUDIO##"
+		},
+		{
+			"ID": "455af1cc4e8a508e68ea2396c0484725",
+			"TypeName": "FlaxEngine.AudioSource",
+			"ParentID": "0f6acf8b4ef66bbc681cddb9eab8c67e",
+			"Name": "MenuMusic",
+			"Clip": "563a75fe42e3d6cf56f2b9b119bb66d3",
+			"Loop": true,
+			"PlayOnStart": true
+		},
+		{
+			"ID": "1f26a6b94298bcc7cce0d0bfd907f9b1",
+			"TypeName": "FlaxEngine.AudioSource",
+			"ParentID": "0f6acf8b4ef66bbc681cddb9eab8c67e",
+			"Name": "ButtonPressSound",
+			"Clip": "0ac926304a440df225a9b7a370d357b0",
+			"Pitch": 0.75
+		},
+		{
+			"ID": "afc8c0904eadb0897d1741896f4d9867",
+			"TypeName": "FlaxEngine.AudioSource",
+			"ParentID": "0f6acf8b4ef66bbc681cddb9eab8c67e",
+			"Name": "ButtonHoverSound",
+			"Clip": "0ac926304a440df225a9b7a370d357b0"
+		},
+		{
+			"ID": "2e1b571441f5b699f54aad922dfa372d",
+			"TypeName": "FlaxEngine.AudioSource",
+			"ParentID": "0f6acf8b4ef66bbc681cddb9eab8c67e",
+			"IsActive": false,
+			"Name": "BackGroundMusic",
+			"Clip": "c32673394a03647e47c4c6ab1b52ee96",
+			"Loop": true,
+			"PlayOnStart": true
+		},
+		{
+			"ID": "b99e9864443f1d85e35a1683a8565f10",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9d831f9a46185148468006b9c9b7b561",
+			"Name": "##PROPS##"
+		},
+		{
+			"ID": "95a9782d4e3a876518649f94444944e4",
+			"PrefabID": "273bfd5a40cd11d54a03bf8fe87f7070",
+			"PrefabObjectID": "fe2ebff6407a1969b2a8f1a8f08f36ad",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Transform": {
+				"Translation": {
+					"X": 1002.4114990234375,
+					"Y": 0.0,
+					"Z": 1107.8260498046876
+				},
+				"Scale": {
+					"X": 5.0,
+					"Y": 5.0,
+					"Z": 5.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4e52ae114ee3178b467e3da9529f7fd9",
+			"PrefabID": "273bfd5a40cd11d54a03bf8fe87f7070",
+			"PrefabObjectID": "fe2ebff6407a1969b2a8f1a8f08f36ad",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Transform": {
+				"Translation": {
+					"X": 368.92144775390627,
+					"Y": 0.0,
+					"Z": 1466.70361328125
+				},
+				"Scale": {
+					"X": 3.0,
+					"Y": 3.0,
+					"Z": 3.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "08fbbf0c45a40ebf2d6254a543bd9c46",
+			"PrefabID": "273bfd5a40cd11d54a03bf8fe87f7070",
+			"PrefabObjectID": "fe2ebff6407a1969b2a8f1a8f08f36ad",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Dome 0",
+			"Transform": {
+				"Translation": {
+					"X": 734.2501831054688,
+					"Y": 54.33612060546875,
+					"Z": 1600.904296875
+				},
+				"Scale": {
+					"X": 2.0,
+					"Y": 2.0,
+					"Z": 2.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "aeb7ab36462546acc6b5b598cd0fdbfe",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "25a788034eb4ecdf28ae9181bd25c81a",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Radar 0",
+			"Transform": {
+				"Translation": {
+					"X": 980.457763671875,
+					"Y": 10.0,
+					"Z": 187.5177001953125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.550000011920929,
+					"Y": 0.8999999761581421,
+					"Z": 0.550000011920929
+				}
+			}
+		},
+		{
+			"ID": "af01baa742df874ef0ecb4831b722bb5",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "f1cef95e44aff862d84fc78e61753007",
+			"ParentID": "aeb7ab36462546acc6b5b598cd0fdbfe",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2dc33cf148f46a9fabf1d6bd0f21b67b",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "0f18f0214f7b96b3ff8adda07bcd16c9",
+			"ParentID": "aeb7ab36462546acc6b5b598cd0fdbfe"
+		},
+		{
+			"ID": "a4e683a74697a40b8db72f9633871275",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "df58b9e34b63bcfc1a7f3080765bb3a2",
+			"ParentID": "2dc33cf148f46a9fabf1d6bd0f21b67b",
+			"V": {}
+		},
+		{
+			"ID": "081dd10341845ca0f4c4159897f70aa4",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "dce6fdd64c2db40c888d59b0a1e3a92d",
+			"ParentID": "2dc33cf148f46a9fabf1d6bd0f21b67b",
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4a9f1195445d0d0a04307d90aa88e5df",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "6efbeb9842c31487c3c9afa438b07fa5",
+			"ParentID": "2dc33cf148f46a9fabf1d6bd0f21b67b",
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e85884cd46d2d8fb10c9d8a1d2064f33",
+			"PrefabID": "286d3ebc485af9cdc612e093ce6610cd",
+			"PrefabObjectID": "7206c6fc45c831f8f60b068160f8c7b5",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Service",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 10.0,
+					"Z": 0.0
+				},
+				"Scale": {
+					"X": 0.550000011920929,
+					"Y": 0.8999999761581421,
+					"Z": 0.4000000059604645
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "87c284e7479134c8eaf1e7abda68de93",
+			"PrefabID": "286d3ebc485af9cdc612e093ce6610cd",
+			"PrefabObjectID": "7206c6fc45c831f8f60b068160f8c7b5",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Service 0",
+			"Transform": {
+				"Translation": {
+					"X": 1134.4761962890626,
+					"Y": 10.0,
+					"Z": 423.64501953125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.550000011920929,
+					"Y": 0.8999999761581421,
+					"Z": 0.4000000059604645
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3c76305d4d0bd10fcefc9fb8556a1554",
+			"PrefabID": "286d3ebc485af9cdc612e093ce6610cd",
+			"PrefabObjectID": "7206c6fc45c831f8f60b068160f8c7b5",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Service 1",
+			"Transform": {
+				"Translation": {
+					"X": 737.428955078125,
+					"Y": 10.0,
+					"Z": -247.55496215820313
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.550000011920929,
+					"Y": 0.8999999761581421,
+					"Z": 0.4000000059604645
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b287ae5443074fde15f6e3ad9486d6d7",
+			"PrefabID": "273bfd5a40cd11d54a03bf8fe87f7070",
+			"PrefabObjectID": "fe2ebff6407a1969b2a8f1a8f08f36ad",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Dome 1",
+			"Transform": {
+				"Translation": {
+					"X": 368.92144775390627,
+					"Y": 0.0,
+					"Z": 1466.70361328125
+				},
+				"Orientation": {
+					"X": 1.0,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 3.0,
+					"Y": 3.0,
+					"Z": 3.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1813e6bb401f7106281ce6a2014f6f1b",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "de7aa28f4da638b38e42d0afa4067eb1",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Transform": {
+				"Translation": {
+					"X": -893.0916748046875,
+					"Y": 5.0,
+					"Z": -186.12738037109376
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.8999999761581421,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "ec7e7ba24343f5fa66b8159062f762b7",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "9b9516e34085bf77e3ab7fac27dd0fa1",
+			"ParentID": "1813e6bb401f7106281ce6a2014f6f1b",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5420db6c4205bbb1ee67f1813a8c64eb",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "de7aa28f4da638b38e42d0afa4067eb1",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Office 0",
+			"Transform": {
+				"Translation": {
+					"X": -808.4368896484375,
+					"Y": 5.0,
+					"Z": 609.2008056640625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.8999999761581421,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "7cc6f2cc46fa83fbc27bcdbce9a889bc",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "9b9516e34085bf77e3ab7fac27dd0fa1",
+			"ParentID": "5420db6c4205bbb1ee67f1813a8c64eb",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "35ed1b0948d79fa6d07b96b35a31c2bc",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "de7aa28f4da638b38e42d0afa4067eb1",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Office 1",
+			"Transform": {
+				"Translation": {
+					"X": -1015.7177734375,
+					"Y": 5.0,
+					"Z": 609.2008056640625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.8999999761581421,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "f7723a724cd1b706aebde58e4733252d",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "9b9516e34085bf77e3ab7fac27dd0fa1",
+			"ParentID": "35ed1b0948d79fa6d07b96b35a31c2bc",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "38eec75f48faf879a38fb69acb1d86c1",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "de7aa28f4da638b38e42d0afa4067eb1",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Office 2",
+			"Transform": {
+				"Translation": {
+					"X": -1000.2251586914063,
+					"Y": 5.0,
+					"Z": 909.2008056640625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.8999999761581421,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "327f6dda462c2d37bb11d9a5761ce8fc",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "9b9516e34085bf77e3ab7fac27dd0fa1",
+			"ParentID": "38eec75f48faf879a38fb69acb1d86c1",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4e5e86a446cd0848f3770ba4c5655bda",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "de7aa28f4da638b38e42d0afa4067eb1",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Office 3",
+			"Transform": {
+				"Translation": {
+					"X": -1192.6824951171876,
+					"Y": 5.0,
+					"Z": 909.2008056640625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.8999999761581421,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "d821ab3a4dc5d26ff3da6e9f8b9b3944",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "9b9516e34085bf77e3ab7fac27dd0fa1",
+			"ParentID": "4e5e86a446cd0848f3770ba4c5655bda",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "622fe1a74db8784ea368f3bac8e40372",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "de7aa28f4da638b38e42d0afa4067eb1",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Office 4",
+			"Transform": {
+				"Translation": {
+					"X": -1192.6824951171876,
+					"Y": 5.0,
+					"Z": 609.2008056640625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.8999999761581421,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "25ab50444ad1e3e50473a3bed71cae12",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "9b9516e34085bf77e3ab7fac27dd0fa1",
+			"ParentID": "622fe1a74db8784ea368f3bac8e40372",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3be8cb9a4457450a1c84c982a4dd7cf5",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "de7aa28f4da638b38e42d0afa4067eb1",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Office 5",
+			"Transform": {
+				"Translation": {
+					"X": -338.6531982421875,
+					"Y": 5.0,
+					"Z": 1216.5899658203126
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.8999999761581421,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "c9915a30415b837f53ab0ab816613b02",
+			"PrefabID": "402e575342b99387ca7c5e9eae0057e6",
+			"PrefabObjectID": "9b9516e34085bf77e3ab7fac27dd0fa1",
+			"ParentID": "3be8cb9a4457450a1c84c982a4dd7cf5",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "09cb34624ea846d41e28e1a389fdb17a",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "25a788034eb4ecdf28ae9181bd25c81a",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Radar 1",
+			"Transform": {
+				"Translation": {
+					"X": -715.8648681640625,
+					"Y": 10.0,
+					"Z": 216.71408081054688
+				},
+				"Scale": {
+					"X": 0.550000011920929,
+					"Y": 0.8999999761581421,
+					"Z": 0.550000011920929
+				}
+			}
+		},
+		{
+			"ID": "ecc0df7c4048c0f2b6fbada3be4f37b8",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "f1cef95e44aff862d84fc78e61753007",
+			"ParentID": "09cb34624ea846d41e28e1a389fdb17a",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "bef20b294ddd0fefe377158c318199ef",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "0f18f0214f7b96b3ff8adda07bcd16c9",
+			"ParentID": "09cb34624ea846d41e28e1a389fdb17a"
+		},
+		{
+			"ID": "39e4a3eb4bb5e49da1ab90b7ef22afd1",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "df58b9e34b63bcfc1a7f3080765bb3a2",
+			"ParentID": "bef20b294ddd0fefe377158c318199ef",
+			"V": {}
+		},
+		{
+			"ID": "44a0bd7a4927552e5946d389589be027",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "dce6fdd64c2db40c888d59b0a1e3a92d",
+			"ParentID": "bef20b294ddd0fefe377158c318199ef",
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f42aff87441dfffc6aec98ad49c7f450",
+			"PrefabID": "9c533e544d6105e67c1da78fa66c13d6",
+			"PrefabObjectID": "6efbeb9842c31487c3c9afa438b07fa5",
+			"ParentID": "bef20b294ddd0fefe377158c318199ef",
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a122ae5741f4257386e71094b41c05d1",
+			"PrefabID": "6c031ee341e2e4e8e393dd9963d038ee",
+			"PrefabObjectID": "c16f2dc44a59fb8664a6d598f9eb83b6",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "MoonTerrain",
+			"Transform": {
+				"Translation": {
+					"X": 584.9107055664063,
+					"Y": -35.0,
+					"Z": 1427.2972412109376
+				},
+				"Scale": {
+					"X": 60.0,
+					"Y": 60.0,
+					"Z": 60.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "049f0dca497df7b25e04b8bcd983d838",
+			"PrefabID": "286d3ebc485af9cdc612e093ce6610cd",
+			"PrefabObjectID": "7206c6fc45c831f8f60b068160f8c7b5",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Service 2",
+			"Transform": {
+				"Translation": {
+					"X": -1015.5238037109375,
+					"Y": 10.0,
+					"Z": 1453.64501953125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.550000011920929,
+					"Y": 0.8999999761581421,
+					"Z": 0.4000000059604645
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "65740ef6436086b20e8bd7a2090c14a3",
+			"PrefabID": "286d3ebc485af9cdc612e093ce6610cd",
+			"PrefabObjectID": "7206c6fc45c831f8f60b068160f8c7b5",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Service 3",
+			"Transform": {
+				"Translation": {
+					"X": -645.5238037109375,
+					"Y": 10.0,
+					"Z": 1453.64501953125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.550000011920929,
+					"Y": 0.8999999761581421,
+					"Z": 0.4000000059604645
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d0f1578044df4c3c08c8b1aa0e089e4f",
+			"PrefabID": "286d3ebc485af9cdc612e093ce6610cd",
+			"PrefabObjectID": "7206c6fc45c831f8f60b068160f8c7b5",
+			"ParentID": "b99e9864443f1d85e35a1683a8565f10",
+			"Name": "Building_Service 4",
+			"Transform": {
+				"Translation": {
+					"X": -305.5238037109375,
+					"Y": 10.0,
+					"Z": 1453.64501953125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.550000011920929,
+					"Y": 0.8999999761581421,
+					"Z": 0.4000000059604645
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "6eb7e58e4659e84c991741a8eda2c6cc",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9d831f9a46185148468006b9c9b7b561",
+			"Name": "##_NODES_##"
+		},
+		{
+			"ID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "6eb7e58e4659e84c991741a8eda2c6cc",
+			"Name": "##BASIC_NODES##"
+		},
+		{
+			"ID": "b0bde39546fdb9efc5e41590489c1930",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 1",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3a942e0b4394723205b369a04655711a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "b0bde39546fdb9efc5e41590489c1930"
+		},
+		{
+			"ID": "8003993f449faee7ca8cfc952dc9cd98",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 5",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "809410434099e05f4767e48fb88b6032",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "8003993f449faee7ca8cfc952dc9cd98"
+		},
+		{
+			"ID": "ce76e496440853cfb8a034b9841e73ac",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 15",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1b33e5b7451712916b634bbe71b38452",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "ce76e496440853cfb8a034b9841e73ac"
+		},
+		{
+			"ID": "ceb1f47a4587a4a46aaef38328e2d404",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 16",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "86a0c4b743eff06208a1eea02f94d1e9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "ceb1f47a4587a4a46aaef38328e2d404"
+		},
+		{
+			"ID": "79693f3b43ad134c168bb481736d5fe3",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 17",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b3ce0c884ecbb85a0e1ab18357aa9800",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "79693f3b43ad134c168bb481736d5fe3"
+		},
+		{
+			"ID": "76e5adbd4b9b2554b32ac38482f00203",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 20",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3aeb2e9d440de5015b70749e543243c0",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "76e5adbd4b9b2554b32ac38482f00203"
+		},
+		{
+			"ID": "8ca57023490d493873e637ae79c204bb",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 23",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b007dfd943ade4448e729799961373e3",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "8ca57023490d493873e637ae79c204bb"
+		},
+		{
+			"ID": "ed5160d545ad50b86e2082936c1f7fda",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 24",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "0622d9e4488f6a636ed98c8047a623a0",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "ed5160d545ad50b86e2082936c1f7fda"
+		},
+		{
+			"ID": "423acdd145a9059a694fb59a710e117a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 29",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "13c679be40c0a604362fcc82af16db88",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "423acdd145a9059a694fb59a710e117a"
+		},
+		{
+			"ID": "4f583a1547426a8330e55f8e8424fc0c",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 31",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d128d9594beaa1dfb315ef8168fb85ee",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "4f583a1547426a8330e55f8e8424fc0c"
+		},
+		{
+			"ID": "6aabb078419ba8b1fa22078e36155d15",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 34",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "6d5601154cf9a4e30f6d8a9030f5ce33",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "6aabb078419ba8b1fa22078e36155d15"
+		},
+		{
+			"ID": "15ee7d0c4911a8fcb781b5b4d27ff58e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 35",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "cd07176945c480d7c806579d9fa4e8fa",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "15ee7d0c4911a8fcb781b5b4d27ff58e"
+		},
+		{
+			"ID": "8a40682949684eef63f0bda20e4fa96e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 38",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b1fe185349ce6a1667a547b8abc56287",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "8a40682949684eef63f0bda20e4fa96e"
+		},
+		{
+			"ID": "620f6f4a41c4d3412893189b8ca561fe",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 39",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2a18cb694326bc1d3d53cd94526f6453",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "620f6f4a41c4d3412893189b8ca561fe"
+		},
+		{
+			"ID": "cbbab3c34e6ec1068038988782ac1932",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 42",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a806922b43bc0e8a4919098dbecbbbad",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "cbbab3c34e6ec1068038988782ac1932"
+		},
+		{
+			"ID": "ff0b813842449668e7e32e9ae7a611d9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 43",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "39cdfa62493daa47886925a357ab3bea",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "ff0b813842449668e7e32e9ae7a611d9"
+		},
+		{
+			"ID": "f8b26fb2455ce5e0e001e79185b5b1b8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 45",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "c8ef2b17492a4ac4b76c989df0f6a8a8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "f8b26fb2455ce5e0e001e79185b5b1b8"
+		},
+		{
+			"ID": "88115eed46f5bcc8e343fa88f79905bd",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 46",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1b458c5d4650bae0af62fbb0b0637858",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "88115eed46f5bcc8e343fa88f79905bd"
+		},
+		{
+			"ID": "bfa1a15e4c0ec6c2d34d3da6c162a01d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 47",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4fbbf2af477dfb3953b5a8a77902454c",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "bfa1a15e4c0ec6c2d34d3da6c162a01d"
+		},
+		{
+			"ID": "d528f0a94b29b9be4f8d78a74728b722",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 51",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7a67b1cb460505247f9ce2a5618fe565",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "d528f0a94b29b9be4f8d78a74728b722"
+		},
+		{
+			"ID": "d9f852774ba76a87495ec18cbd3e940a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 54",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4c3a11194972cdc0f6a00095ce8e2480",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "d9f852774ba76a87495ec18cbd3e940a"
+		},
+		{
+			"ID": "668e8b984df47e8cb3ac23a1dfb85c5f",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 55",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7d0b4a814f745143435d87bf3984332d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "668e8b984df47e8cb3ac23a1dfb85c5f"
+		},
+		{
+			"ID": "f2b6d62046f45da993212bbd2499d455",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 56",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "0e5ef9844899052ed5d7ecad2b9ab18d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "f2b6d62046f45da993212bbd2499d455"
+		},
+		{
+			"ID": "fd5529e64e72d0772913c386817bd011",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 63",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "54517e8f47eb3c605217de86f04b9def",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "fd5529e64e72d0772913c386817bd011"
+		},
+		{
+			"ID": "3180942d46eb1639c602f9b67840cf17",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 65",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "96924da841b991e48b1fd6bc18231a3b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "3180942d46eb1639c602f9b67840cf17"
+		},
+		{
+			"ID": "fb3c8f534d34664d7d748c9c71d318de",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 67",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "0874257c495418c1cf06a7b8a7384544",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "fb3c8f534d34664d7d748c9c71d318de"
+		},
+		{
+			"ID": "6fd92b654caf9395cab7c8b271c06330",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 68",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "fc1a9df542723aa58e133b812a3b436b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "6fd92b654caf9395cab7c8b271c06330"
+		},
+		{
+			"ID": "c077d0544fa18fbdbc9e76b2e29ebbb8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 69",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b6a30afb4f47dcff2d0906b9f0a64f0e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "c077d0544fa18fbdbc9e76b2e29ebbb8"
+		},
+		{
+			"ID": "26985e7a41eaa7357959d8b9540fc5cb",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 70",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "fed19cf9465165e2035a7ea3c1761d36",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "26985e7a41eaa7357959d8b9540fc5cb"
+		},
+		{
+			"ID": "086dd11049e879481432d5bc7564a84c",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 71",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "79210b4d4919d1cd9f28c69a2985c02b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "086dd11049e879481432d5bc7564a84c"
+		},
+		{
+			"ID": "23db7bbb461f316c85436590db9d7fde",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 72",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b39337df449d6a2a2c8e89b71f5bc276",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "23db7bbb461f316c85436590db9d7fde"
+		},
+		{
+			"ID": "6ce6382f4256757545590b9b0dc2c1f7",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 73",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "53747fd743713424b7186a91157f9770",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "6ce6382f4256757545590b9b0dc2c1f7"
+		},
+		{
+			"ID": "f4867b5b4df2cb82da61769f925dde32",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 74",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "8d97c54f45ccdeb8cf81e3a107e9efc9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "f4867b5b4df2cb82da61769f925dde32"
+		},
+		{
+			"ID": "55e9b46c40080fa2c55f59bec8385b6c",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 75",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b369ae92435c48dedf80b0a662c6cabc",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "55e9b46c40080fa2c55f59bec8385b6c"
+		},
+		{
+			"ID": "b81801994c86aceb2e7a27b585dbf5a6",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 76",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "df2441994174cb8d88b2ff8d28bd138a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "b81801994c86aceb2e7a27b585dbf5a6"
+		},
+		{
+			"ID": "6eb1f802487f66268819e587de8b6042",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 77",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4885e6c64b086aefa1ad2589428339b4",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "6eb1f802487f66268819e587de8b6042"
+		},
+		{
+			"ID": "e6df0be44f3cd784ffb5ffac71faac87",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 78",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "26042c1444c0f84ae240d49c62e2e18f",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "e6df0be44f3cd784ffb5ffac71faac87"
+		},
+		{
+			"ID": "66c1479f4a4ec5a2d2ba839057f8f71c",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 79",
+			"Transform": {
+				"Translation": {
+					"X": 1200.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "67aa0b3c487bce985a0d40ac7fd888fe",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "66c1479f4a4ec5a2d2ba839057f8f71c"
+		},
+		{
+			"ID": "9b981be84c707642a379aa88e46a6675",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 80",
+			"Transform": {
+				"Translation": {
+					"X": 1200.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "925ab4b3482b1b3a30aeb5b1bf2d8472",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "9b981be84c707642a379aa88e46a6675"
+		},
+		{
+			"ID": "19bdfb9846f59cb7e40b88a78a2eeebb",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 81",
+			"Transform": {
+				"Translation": {
+					"X": 1200.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2165d525464682dd5dd7a39e1d012e02",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "19bdfb9846f59cb7e40b88a78a2eeebb"
+		},
+		{
+			"ID": "800af9bc4fcb93353ed5ed917f2789b8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 82",
+			"Transform": {
+				"Translation": {
+					"X": 1200.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "18ffd67b4cf7230a93cce8a9a6c6f290",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "800af9bc4fcb93353ed5ed917f2789b8"
+		},
+		{
+			"ID": "44bc8df741e35e74092193b533d54c8b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 83",
+			"Transform": {
+				"Translation": {
+					"X": 1200.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d83bb200493b9eeb8daa2e89148edc12",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "44bc8df741e35e74092193b533d54c8b"
+		},
+		{
+			"ID": "ecb4ecec476432541f3be0a78282b976",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 84",
+			"Transform": {
+				"Translation": {
+					"X": 1200.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3827f1494cb4055c6a178bbf8ecb5c6e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "ecb4ecec476432541f3be0a78282b976"
+		},
+		{
+			"ID": "259192b64d48f4a2b2036ba58a552b23",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 85",
+			"Transform": {
+				"Translation": {
+					"X": 1200.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "53f3a4844752482215784e9ccfb9704f",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "259192b64d48f4a2b2036ba58a552b23"
+		},
+		{
+			"ID": "ea106f5a42e51d3c2f7bd3b899078745",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 86",
+			"Transform": {
+				"Translation": {
+					"X": 1200.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f1c5e0404fe6ef0e861d1988469b2988",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "ea106f5a42e51d3c2f7bd3b899078745"
+		},
+		{
+			"ID": "c902dfbf411dfd8530187dbbfca30766",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 87",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "daac1f1447ac333630cc539084cc58a3",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "c902dfbf411dfd8530187dbbfca30766"
+		},
+		{
+			"ID": "e179e7b04ec89e4f539515b2d017b158",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 88",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a9b6b0b14ca3f2ff37f7eeaf9852fec0",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "e179e7b04ec89e4f539515b2d017b158"
+		},
+		{
+			"ID": "bacc932040a4e289324b9e85d6952c2b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 89",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "bbd713ed40a46998525e559758583c61",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "bacc932040a4e289324b9e85d6952c2b"
+		},
+		{
+			"ID": "d2de099747ed411ceb7f558392f61ad5",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 90",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "ca4e5df845313ac7ed7930b387db3875",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "d2de099747ed411ceb7f558392f61ad5"
+		},
+		{
+			"ID": "3d01a4af4db4c4424abae2a6c062bd56",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 91",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "83a620774c99182ebeb96a8e30ae19c1",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "3d01a4af4db4c4424abae2a6c062bd56"
+		},
+		{
+			"ID": "2cc26f8943211e71bc43b084103563b5",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 92",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "bb0a40224ebcbe95388401bfdccb2528",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "2cc26f8943211e71bc43b084103563b5"
+		},
+		{
+			"ID": "0485532e4eb0c84749cca5bd4e30fca7",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 93",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "368279b0480d98ca29fa688a6f405b25",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "0485532e4eb0c84749cca5bd4e30fca7"
+		},
+		{
+			"ID": "bd72652b4f3276a6ac0e83b35593b3b1",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 94",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "215b81dd4e13a4153b5e5eacbacc7897",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "bd72652b4f3276a6ac0e83b35593b3b1"
+		},
+		{
+			"ID": "499769814e0fa868e8413c9d21d2161e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 95",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d1bb0d14445ebdff3b5bb88a437c3e26",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "499769814e0fa868e8413c9d21d2161e"
+		},
+		{
+			"ID": "8147ec724052714080735caa790a3f12",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 96",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "19b8fbd64957917404d28ca59637845b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "8147ec724052714080735caa790a3f12"
+		},
+		{
+			"ID": "163680c14be02a2b78bc398dbde6bb4e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 97",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3bb5f27c43aec2396e1f18aa99d3fff1",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "163680c14be02a2b78bc398dbde6bb4e"
+		},
+		{
+			"ID": "c39b7e4348bea801e4b11289f91206ca",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 98",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b00064a04099d8470edd9e8bf0a539b8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "c39b7e4348bea801e4b11289f91206ca"
+		},
+		{
+			"ID": "6dc6861140c59370300ed79f408ef5d3",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 99",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5f31a74348de8e108f450898ac4f75a8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "6dc6861140c59370300ed79f408ef5d3"
+		},
+		{
+			"ID": "b0c2c32b45ae8846ecc77b97bd2770dc",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 100",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "acf4ed3c4d170ddf837c868b7eb625a5",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "b0c2c32b45ae8846ecc77b97bd2770dc"
+		},
+		{
+			"ID": "c2fa454943e32a9cb5211c992fa6b3b4",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 101",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "719ad0aa4beee46fb05c5e82801f7c2d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "c2fa454943e32a9cb5211c992fa6b3b4"
+		},
+		{
+			"ID": "277d5b1540fb92074a4e16a40dd4f1e5",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 102",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2757006e4ddcea552dffe39ccaaaa67d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "277d5b1540fb92074a4e16a40dd4f1e5"
+		},
+		{
+			"ID": "0b3a46a24cc07aa785ff0c92fa211d60",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 103",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": -100.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "91490b1c492d9a7f1df835af49c92eec",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "0b3a46a24cc07aa785ff0c92fa211d60"
+		},
+		{
+			"ID": "919c18d24a9fc43763fc7ea9ce791e69",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 104",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7eb25d4b48fc4e02b5776db558518b9b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "919c18d24a9fc43763fc7ea9ce791e69"
+		},
+		{
+			"ID": "3ab9540c42bf4a677ace709fa6ed9cf5",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 105",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4339fd1f47dc5fbd73d09da846dcdc95",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "3ab9540c42bf4a677ace709fa6ed9cf5"
+		},
+		{
+			"ID": "647329214e51ccc99788bfa38ffec2f5",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 106",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7c6ca4814f612442951e0aad69a6125a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "647329214e51ccc99788bfa38ffec2f5"
+		},
+		{
+			"ID": "61a3d649435b4150e3b758a7d07157a8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 107",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b065277d448336f7e2cdb393666511d3",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "61a3d649435b4150e3b758a7d07157a8"
+		},
+		{
+			"ID": "c5587b14452b49fa90a93fb38ccd6db8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 108",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5bf84e8e4145974833144d8d5bfac151",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "c5587b14452b49fa90a93fb38ccd6db8"
+		},
+		{
+			"ID": "1c1f61024a9dfe5a2fbd8dbb6953ebe6",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 109",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e1d8ba48448064c1af79ba9e64e44fbc",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "1c1f61024a9dfe5a2fbd8dbb6953ebe6"
+		},
+		{
+			"ID": "fb55a8044438db6ffd9ee9b769d565e9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 110",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "aeb70bb44b6a6a451d186a8f1b61c594",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "fb55a8044438db6ffd9ee9b769d565e9"
+		},
+		{
+			"ID": "8bb0e0d044058599cbc5d2b129a89cbc",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 111",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "055f673449529e6a5064bf9f70d2bd5a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "8bb0e0d044058599cbc5d2b129a89cbc"
+		},
+		{
+			"ID": "00f44e1747c72891c8dd7ca21179b00a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 112",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1c25448f44057c87138e3eb96c292453",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "00f44e1747c72891c8dd7ca21179b00a"
+		},
+		{
+			"ID": "90ca13f3479e8d4211949b8d04158239",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 113",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "0d4b3aca4660e86b0ca400b01e28f6dd",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "90ca13f3479e8d4211949b8d04158239"
+		},
+		{
+			"ID": "00c8a11d462adab321ebcb8e79a39883",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 114",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "94fdedc6430393bf8a8e798ff3687518",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "00c8a11d462adab321ebcb8e79a39883"
+		},
+		{
+			"ID": "b7d2e10246b963b5d8699da3514979ed",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 115",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e997430d463ab675a78a82809c192885",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "b7d2e10246b963b5d8699da3514979ed"
+		},
+		{
+			"ID": "35d1668f41973059879359887aa7017a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 116",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d777c8974639b5a9edef25b4ef7ba9ac",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "35d1668f41973059879359887aa7017a"
+		},
+		{
+			"ID": "9de042b94a711808aa66bcbd6b469bd9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 117",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "527554d84fb6a0ffb4ac208b6a3f5b14",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "9de042b94a711808aa66bcbd6b469bd9"
+		},
+		{
+			"ID": "b3a499514175dc8b7fc76dbca77435cf",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 118",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "71aaf54246ccc2b8683c6f902ec5dfc2",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "b3a499514175dc8b7fc76dbca77435cf"
+		},
+		{
+			"ID": "7959f7904998ba95ebbc2e96892405c2",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 119",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4053fd6841fe6f7ed7de3ab500e8b52d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "7959f7904998ba95ebbc2e96892405c2"
+		},
+		{
+			"ID": "feae99b049eaa020cd498794e1d7d966",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 120",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "fb76d74f4f580d6ce2ddc6ababe510f1",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "feae99b049eaa020cd498794e1d7d966"
+		},
+		{
+			"ID": "5791573e434fbab49ba5f785cf44e541",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 121",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "de522f0d49d930155abf72849b0c42eb",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "5791573e434fbab49ba5f785cf44e541"
+		},
+		{
+			"ID": "2cc98b5643bd8a5ef24d1b925d83c441",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 122",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "33380d404424734c535bd8b5cf0a8a6b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "2cc98b5643bd8a5ef24d1b925d83c441"
+		},
+		{
+			"ID": "9d8a295e4ee6491eec2474b69eeb16bb",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 123",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "dcedc8624cb04cdd745a818b7e355461",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "9d8a295e4ee6491eec2474b69eeb16bb"
+		},
+		{
+			"ID": "91c6ebb24a8ce858ac498f9fae54892b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 124",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": -300.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3d03239047aa35200467c6a8fc555120",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "91c6ebb24a8ce858ac498f9fae54892b"
+		},
+		{
+			"ID": "e9dc1efe461a7427829589bb7da85fff",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 125",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": -100.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "ce1dbb404cf56eb4662fa383457eea22",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "e9dc1efe461a7427829589bb7da85fff"
+		},
+		{
+			"ID": "f0b829264ff95d6e668190a06637a684",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 126",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": -100.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b844c6994b2a2319973306a62714880a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "f0b829264ff95d6e668190a06637a684"
+		},
+		{
+			"ID": "58f88bb64b5ed50cf508978dbcf1f008",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 127",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": -100.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "bdf8892f4c1b829eecc96187b0ff445d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "58f88bb64b5ed50cf508978dbcf1f008"
+		},
+		{
+			"ID": "07f20ad0462c72390f737aa090202a82",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 128",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": -100.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "c702e1e14fdf3deeb28fa49bc01db6c6",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "07f20ad0462c72390f737aa090202a82"
+		},
+		{
+			"ID": "d5a9c9f34769ba588ed7f8b09bdcd5e3",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 129",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": -100.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "6214ff3949ef39ac80e222ad81680932",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "d5a9c9f34769ba588ed7f8b09bdcd5e3"
+		},
+		{
+			"ID": "48f98f434b938aa877376a89a80220e1",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 130",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -100.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "272f946942214172db8dc48e05656f64",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "48f98f434b938aa877376a89a80220e1"
+		},
+		{
+			"ID": "fc8f914545110f29948d798cc75d84a9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 131",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": -100.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2f82dc654e1a27bf420518946a625382",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "fc8f914545110f29948d798cc75d84a9"
+		},
+		{
+			"ID": "4b8ae8214fa2661129608fa987b457e9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 132",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": -300.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "ef81d36f42a2026e5bca0bb98108e051",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "4b8ae8214fa2661129608fa987b457e9"
+		},
+		{
+			"ID": "566185814c56687985fd4eb8a6c78dfb",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 133",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": -300.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "aa99359a4b4f9cb0a3c539b2e62e930d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "566185814c56687985fd4eb8a6c78dfb"
+		},
+		{
+			"ID": "3a68379246fd4f51e97c4ba42dfe3f11",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 134",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": -300.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5b82577b47e99d5ce42195ace6a8ca2c",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "3a68379246fd4f51e97c4ba42dfe3f11"
+		},
+		{
+			"ID": "b7faeb0b4b39529598ae0d968b18ef99",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 135",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": -300.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1a7131114888d9030e5ca9bf7d8c770e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "b7faeb0b4b39529598ae0d968b18ef99"
+		},
+		{
+			"ID": "a46fc69f4a6ed5e6058abe9f7f5f7bb3",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 136",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": -300.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a47dd91b4a496496d75382bff6e757dc",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "a46fc69f4a6ed5e6058abe9f7f5f7bb3"
+		},
+		{
+			"ID": "432c78aa4d5579d9638913a9f7d322de",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 137",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -300.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "59b9e6ee48a6053567a7518bd32cd297",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "432c78aa4d5579d9638913a9f7d322de"
+		},
+		{
+			"ID": "4ae80cb54021127d449fa0b3311c860e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 138",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": -300.0,
+					"Z": 1300.0
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f4109a76486e0e7a793e80a3364356b3",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "4ae80cb54021127d449fa0b3311c860e"
+		},
+		{
+			"ID": "3f282ea94a40862297eec59ad1b0912a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 139",
+			"Transform": {
+				"Translation": {
+					"X": -1300.0,
+					"Y": -100.0,
+					"Z": 1000.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "024288304872baa40ef740a36fbf059f",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "3f282ea94a40862297eec59ad1b0912a"
+		},
+		{
+			"ID": "fdb762d947f79205511774926e9d65e2",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 140",
+			"Transform": {
+				"Translation": {
+					"X": -1300.0,
+					"Y": -100.0,
+					"Z": 1200.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b1fa2a2c4eeeaa728a1860826e153132",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "fdb762d947f79205511774926e9d65e2"
+		},
+		{
+			"ID": "666597cb45c1b31469a84ba6804efd92",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 141",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": -100.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3f1abe7e4f4c21a1c01ac7bce908ac0c",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "666597cb45c1b31469a84ba6804efd92"
+		},
+		{
+			"ID": "84ccd8624c375cfbf3e0989899412dbc",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 142",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "9d768be748feffba0ec79688ddf09eed",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "84ccd8624c375cfbf3e0989899412dbc"
+		},
+		{
+			"ID": "bb82947f4686f6bbae88db8f9e889722",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 143",
+			"Transform": {
+				"Translation": {
+					"X": -1200.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "aad239a3473f5f09fec053959a44c2a4",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "bb82947f4686f6bbae88db8f9e889722"
+		},
+		{
+			"ID": "459828c04389088b6df0a9ab88c70656",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 144",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d637f87c413a01516709b8a36ef89552",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "459828c04389088b6df0a9ab88c70656"
+		},
+		{
+			"ID": "2a667cc2493fb2ef3de340a3b10226c8",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 145",
+			"Transform": {
+				"Translation": {
+					"X": -1000.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "6531455b49f77467b4f093974afc2aa9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "2a667cc2493fb2ef3de340a3b10226c8"
+		},
+		{
+			"ID": "a5869df84eb9246acc8dce91d7a1fb2b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 146",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7280a91a461ce28c256129ac6701fa4b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "a5869df84eb9246acc8dce91d7a1fb2b"
+		},
+		{
+			"ID": "976b70da459420ebec18cca10ad15526",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 147",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "c31c19d54a387a7434cae6a16018e338",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "976b70da459420ebec18cca10ad15526"
+		},
+		{
+			"ID": "6d8747ce437606ca9ee854b98955f139",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 148",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4c787f8d4909688ee966cbb76f676920",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "6d8747ce437606ca9ee854b98955f139"
+		},
+		{
+			"ID": "825a75784423fe0d72c418acbb5f0e52",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 149",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5d9d47c94d6ef241a03a6aa4b612a289",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "825a75784423fe0d72c418acbb5f0e52"
+		},
+		{
+			"ID": "a67e7dd44ded5a2efa147499f5674dff",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 150",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "517c1a9b43fb76a85cb2eeb696cfe136",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "a67e7dd44ded5a2efa147499f5674dff"
+		},
+		{
+			"ID": "a7045e014598815adaa1dd83a24c7882",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 151",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "c732f3074cc9928be594499282eb481b",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "a7045e014598815adaa1dd83a24c7882"
+		},
+		{
+			"ID": "0215b90d42439c5c79dc10b3d1d48d59",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 152",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "629353eb4c702e864154dd87ebc71aea",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "0215b90d42439c5c79dc10b3d1d48d59"
+		},
+		{
+			"ID": "2b67ff8b4fd67c101f3357923e6c521a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 153",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b6d365d94511fe3a846af38142661505",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "2b67ff8b4fd67c101f3357923e6c521a"
+		},
+		{
+			"ID": "1885d097461fd8e1f7d71b868d66baef",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 154",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4aea3fb942ba8b4830fe319b672910e2",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "1885d097461fd8e1f7d71b868d66baef"
+		},
+		{
+			"ID": "1fcec332430360bddb222b8bcb3421a9",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 155",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "869cd1e34b2e16cc3f105b9b37108177",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "1fcec332430360bddb222b8bcb3421a9"
+		},
+		{
+			"ID": "296d40464d01fcc943f6f79517f32b7a",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 156",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b576377a42052a25fbf221aef9d45757",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "296d40464d01fcc943f6f79517f32b7a"
+		},
+		{
+			"ID": "918b3f21452e67b3f2ad76b0cbd3f7ff",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 157",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "213e59c04c0862246db53687a40e9cfd",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "918b3f21452e67b3f2ad76b0cbd3f7ff"
+		},
+		{
+			"ID": "708adb8a461f1f398e9720b853181304",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 158",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "9ae5d5c44ca8d5b9313548b7bca59158",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "708adb8a461f1f398e9720b853181304"
+		},
+		{
+			"ID": "227a737c4e9834b19f6fa386028715e1",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 159",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a8054a724ff89fd2b3f93ba2cdb82a44",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "227a737c4e9834b19f6fa386028715e1"
+		},
+		{
+			"ID": "8595106f470c758a121b98801ef04c81",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 160",
+			"Transform": {
+				"Translation": {
+					"X": 500.0,
+					"Y": 0.0,
+					"Z": 1400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b9c1db4b4b9a6d39d9b835aa99a0293e",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "8595106f470c758a121b98801ef04c81"
+		},
+		{
+			"ID": "0fe81f2c412797a2fb858f9f16d9d25d",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "9006f7de41a13e2374b8c280293c4699",
+			"ParentID": "b9d9ed1e4ad9d2b3ee6987a46410e67e",
+			"Name": "BasicNode 161",
+			"Transform": {
+				"Translation": {
+					"X": 500.0,
+					"Y": 0.0,
+					"Z": 1600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3b70ea584cf9158a5d86a296a5048212",
+			"PrefabID": "dc63c44147083e6fb19cd793bff06548",
+			"PrefabObjectID": "cb4e61eb4842e36ee86a37b9f153f612",
+			"ParentID": "0fe81f2c412797a2fb858f9f16d9d25d"
+		},
+		{
+			"ID": "c7f987e549d1ae7910bf508c5d55878e",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "6eb7e58e4659e84c991741a8eda2c6cc",
+			"Name": "##BUILDABLE_NODES##"
+		},
+		{
+			"ID": "44ee7542433d455f33481489b6f59a3d",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f327876640f5cf0217321ea88d64efa5",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "44ee7542433d455f33481489b6f59a3d",
+			"V": {}
+		},
+		{
+			"ID": "e9b59067438248482e6d60a7053d256a",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "44ee7542433d455f33481489b6f59a3d"
+		},
+		{
+			"ID": "2475ab104b6d8112b3a643993cf79926",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 0",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2c8a3ade4f11d8b7a975bab740e2b016",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "2475ab104b6d8112b3a643993cf79926",
+			"V": {}
+		},
+		{
+			"ID": "db0886c14a83c4a7cdd382b74e9e6947",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "2475ab104b6d8112b3a643993cf79926"
+		},
+		{
+			"ID": "343c77e843fb68b186814e9638ade8a9",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 1",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "83b8248e4f624488cde6c0b7ffbc8c8e",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "343c77e843fb68b186814e9638ade8a9",
+			"V": {}
+		},
+		{
+			"ID": "f2d518a9408683e17f9e38895269a52f",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "343c77e843fb68b186814e9638ade8a9"
+		},
+		{
+			"ID": "9630aa774c5d7c029795fca3bb037489",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 2",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e5b6bb204094ec2e058a4da012b3e958",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "9630aa774c5d7c029795fca3bb037489",
+			"V": {}
+		},
+		{
+			"ID": "f1559ade482481b1db8c24b3fa7a3504",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "9630aa774c5d7c029795fca3bb037489"
+		},
+		{
+			"ID": "3ea6a2c04cde295ffdb7f888fa51d1e5",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4d9628104e8eeb17e79e64bae1ba2263",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "3ea6a2c04cde295ffdb7f888fa51d1e5",
+			"V": {}
+		},
+		{
+			"ID": "db896880497efa0a125a09a379d7a50f",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "3ea6a2c04cde295ffdb7f888fa51d1e5"
+		},
+		{
+			"ID": "ee22038f45d0ab182874daba023c9506",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 4",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a7e948d8412d4df4416633b220f07991",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "ee22038f45d0ab182874daba023c9506",
+			"V": {}
+		},
+		{
+			"ID": "356652474fc54d152268ed9f75d596b5",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "ee22038f45d0ab182874daba023c9506"
+		},
+		{
+			"ID": "d9f33336490b870c95850db31da788d5",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 5",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b40740b9496ac5c863f70b98e2c04d90",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "d9f33336490b870c95850db31da788d5",
+			"V": {}
+		},
+		{
+			"ID": "092a08a642ffae5c8c3c3296bd36fd04",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "d9f33336490b870c95850db31da788d5"
+		},
+		{
+			"ID": "ac60b7044d8a017c48c97ba570f005c0",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 6",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "353d81b243b502fbfbf731b1b2974ef5",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "ac60b7044d8a017c48c97ba570f005c0",
+			"V": {}
+		},
+		{
+			"ID": "a0be767a456ca6d0baf2fe942b2a49f2",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "ac60b7044d8a017c48c97ba570f005c0"
+		},
+		{
+			"ID": "5c557c994177e528d7a292817d5d6e36",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 7",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2af2662e4baea084ee28e89730e5aa01",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "5c557c994177e528d7a292817d5d6e36",
+			"V": {}
+		},
+		{
+			"ID": "e3912ce6438a467cde8072864c898fb6",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "5c557c994177e528d7a292817d5d6e36"
+		},
+		{
+			"ID": "169ea76b456212a2927498afda72fddc",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 8",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3494919b4ed8bf0720e660bbca257404",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "169ea76b456212a2927498afda72fddc",
+			"V": {}
+		},
+		{
+			"ID": "82f4ff62481b3c3325a9fd972606d689",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "169ea76b456212a2927498afda72fddc"
+		},
+		{
+			"ID": "4726c6be4bde1908c1fc5ca5f458a5eb",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 9",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 1200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4bb7a0054ab05ad312c2a0a9b433ab7f",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "4726c6be4bde1908c1fc5ca5f458a5eb",
+			"V": {}
+		},
+		{
+			"ID": "7bd36b12444cb94764c54881e96e809f",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "4726c6be4bde1908c1fc5ca5f458a5eb"
+		},
+		{
+			"ID": "0818245f486df53d1e03cd8c26b95fcf",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 10",
+			"Transform": {
+				"Translation": {
+					"X": -800.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e0d2926f4b224bb31caf3b82890e5082",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "0818245f486df53d1e03cd8c26b95fcf",
+			"V": {}
+		},
+		{
+			"ID": "edc40e0e47017a154e4e939fc3467aae",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "0818245f486df53d1e03cd8c26b95fcf"
+		},
+		{
+			"ID": "c72ad30d4e6079140e1f42badd397a45",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 11",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "19ce4ae14c958d567651ba80dc4c7fb6",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "c72ad30d4e6079140e1f42badd397a45",
+			"V": {}
+		},
+		{
+			"ID": "dad93e9e43b1e0b753c25288a37c8eda",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "c72ad30d4e6079140e1f42badd397a45"
+		},
+		{
+			"ID": "e4b8eeed4043b3cfe96c3aa2dca06cd6",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 12",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "df3fa4cf4857bdaa0b45b0a5b2a444af",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "e4b8eeed4043b3cfe96c3aa2dca06cd6",
+			"V": {}
+		},
+		{
+			"ID": "a45abd584b125ca463cd48b1d3dac389",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "e4b8eeed4043b3cfe96c3aa2dca06cd6"
+		},
+		{
+			"ID": "a4d3f3e84a340c61271dfa8ef13f18ed",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 13",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "05ddcf5d4b4d9ed2fb099a91f74c5687",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "a4d3f3e84a340c61271dfa8ef13f18ed",
+			"V": {}
+		},
+		{
+			"ID": "dff030d74c85b77dfc38b0a7049cbd5d",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "a4d3f3e84a340c61271dfa8ef13f18ed"
+		},
+		{
+			"ID": "67cad3cc4fab2219490aa08c8daf49de",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 14",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "35ecab2d4df29574e188bb9c60a01f89",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "67cad3cc4fab2219490aa08c8daf49de",
+			"V": {}
+		},
+		{
+			"ID": "759dfa444db7202650c6a9b4208a4d5c",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "67cad3cc4fab2219490aa08c8daf49de"
+		},
+		{
+			"ID": "387348fd4fc310406d92059a55a42396",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 15",
+			"Transform": {
+				"Translation": {
+					"X": 800.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "9aeec1b94d69fb4a546ab0a74b296c9b",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "387348fd4fc310406d92059a55a42396",
+			"V": {}
+		},
+		{
+			"ID": "48f9844340cf2983617430bf07ff560f",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "387348fd4fc310406d92059a55a42396"
+		},
+		{
+			"ID": "7791440f4a258d5cbee8ffac7f55e1aa",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "BuildingNode 16",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "58dd6112490d1bcd4c61e89971e87eba",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "e6873b1140b064532b192688c5773aee",
+			"ParentID": "7791440f4a258d5cbee8ffac7f55e1aa",
+			"V": {}
+		},
+		{
+			"ID": "0d774f1945b190426a242581753e00ad",
+			"PrefabID": "c492d0024cd8f431ddabc0a8d7334651",
+			"PrefabObjectID": "93df4f0246be9c74bc6a81b17e81c729",
+			"ParentID": "7791440f4a258d5cbee8ffac7f55e1aa"
+		},
+		{
+			"ID": "9c5f5dc141a8083895a994845a7517f3",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "c7f987e549d1ae7910bf508c5d55878e",
+			"Name": "##PATH_NODES##"
+		},
+		{
+			"ID": "d5abbcbe42e29fca7c7cc4a6b14300b4",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "c237dff147dc2775cf8f61b18ab60787",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "d5abbcbe42e29fca7c7cc4a6b14300b4"
+		},
+		{
+			"ID": "cb0b2bd746e0a8f1ab94d2a79d26bd64",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 0",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "18e38b174bd803149308d1806b725b2a",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "cb0b2bd746e0a8f1ab94d2a79d26bd64"
+		},
+		{
+			"ID": "14d0d25b45de5723607fe9a223d60e23",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 1",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f44d56824e8c76d59e8e96a564c39eee",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "14d0d25b45de5723607fe9a223d60e23"
+		},
+		{
+			"ID": "25c529c1499e95541aa1b2b2120789a4",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 2",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2623943641ee2ec5c004f4bb383c6830",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "25c529c1499e95541aa1b2b2120789a4"
+		},
+		{
+			"ID": "11887dbc4397afe17096a9b0cdf1d829",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 3",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "8f79aab34eb41e06965ba591cc3e7506",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "11887dbc4397afe17096a9b0cdf1d829"
+		},
+		{
+			"ID": "3af2e22e4c3751e42c6f85986a70ba92",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 4",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4b753e6c4e2c9d79d05027a1f8c22c7c",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "3af2e22e4c3751e42c6f85986a70ba92"
+		},
+		{
+			"ID": "74f96aba466852ea7aa558a42a7438cb",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 5",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "038b8d154a582b6776106ebd75c5aaea",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "74f96aba466852ea7aa558a42a7438cb"
+		},
+		{
+			"ID": "0f7d1d304161962ddeb26fbcf0f694b2",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 6",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "49425ea947a29e16cc8634947e8f46e9",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "0f7d1d304161962ddeb26fbcf0f694b2"
+		},
+		{
+			"ID": "83f62f72414a8431c422a3b427f48790",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 7",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "8690966742847e66a0531bbfe07af513",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "83f62f72414a8431c422a3b427f48790"
+		},
+		{
+			"ID": "58a195db412de9b46ea7e2b2e82ca38e",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 8",
+			"Transform": {
+				"Translation": {
+					"X": 600.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "14dd48d445490af758e9c287b744d615",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "58a195db412de9b46ea7e2b2e82ca38e"
+		},
+		{
+			"ID": "adfbeeec44b8823ce2bb76b89d4bb3ab",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 9",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f708aa1a4b76c65dc6b2d785d38ec803",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "adfbeeec44b8823ce2bb76b89d4bb3ab"
+		},
+		{
+			"ID": "a9e6fe72461ee2a83b027aa4ab77f857",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 10",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1f92d35d44e761c6ba0a02852731c2d2",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "a9e6fe72461ee2a83b027aa4ab77f857"
+		},
+		{
+			"ID": "9cb23e554b554468adb793bcbe559746",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 11",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "67e9bb1d4f8c53db3dd9db80d1dc4e97",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "9cb23e554b554468adb793bcbe559746"
+		},
+		{
+			"ID": "403693d142c99573432d0dbc0c2abacf",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 12",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7da038e64a963673ef014eab435ed1e9",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "403693d142c99573432d0dbc0c2abacf"
+		},
+		{
+			"ID": "0fe9e3194e9f825fe296519a144a8526",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 13",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "6c7e4ad440915e0fac096f82266ca5d0",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "0fe9e3194e9f825fe296519a144a8526"
+		},
+		{
+			"ID": "bba0d6ba40e7f31effb6ae9805d873c2",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 14",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e45abe49430c5118a78e78a370892bf0",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "bba0d6ba40e7f31effb6ae9805d873c2"
+		},
+		{
+			"ID": "5c45ed4044252ff513e5ef827433eca5",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 15",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a4608178490f05ebee2bfea596e839e5",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "5c45ed4044252ff513e5ef827433eca5"
+		},
+		{
+			"ID": "0f70d484464c1d084fba1eafbbbac1c1",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 16",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 600.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d931f7cd474301df54cc57b2d1671b87",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "0f70d484464c1d084fba1eafbbbac1c1"
+		},
+		{
+			"ID": "7eaf0faf4131bafa01da59b9c9b0055d",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 17",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 800.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "73902da041884d38fece6985177f00d0",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "7eaf0faf4131bafa01da59b9c9b0055d"
+		},
+		{
+			"ID": "c0379baa4398dbd7dc46369e6cd1ab7e",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 18",
+			"Transform": {
+				"Translation": {
+					"X": -600.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7eb0709a4c05bf4dafa42cb25440de19",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "c0379baa4398dbd7dc46369e6cd1ab7e"
+		},
+		{
+			"ID": "03ea02054f1578d4ce2d5fbc48668a2a",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 19",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d0a06e484948ef0b4974459343e6fba1",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "03ea02054f1578d4ce2d5fbc48668a2a"
+		},
+		{
+			"ID": "feff0ff84c5e93300a568f8344b75f42",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 20",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "55578a5742e532741e9fc8ac59c20cc1",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "feff0ff84c5e93300a568f8344b75f42"
+		},
+		{
+			"ID": "850f4a3b4f15738f03876390082573b6",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 21",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "368d2e7849ec79ad23a24983f71f42cf",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "850f4a3b4f15738f03876390082573b6"
+		},
+		{
+			"ID": "c170f9d041e611113b25ff88a045a860",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 22",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "9d4ea3164c44af3f377968afcd340f67",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "c170f9d041e611113b25ff88a045a860"
+		},
+		{
+			"ID": "d8416ed14913c092bca112a5e70973d6",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "2fcf237848254a07d1a5bc815da35ade",
+			"ParentID": "9c5f5dc141a8083895a994845a7517f3",
+			"Name": "PathNode 23",
+			"Transform": {
+				"Translation": {
+					"X": 400.0,
+					"Y": 0.0,
+					"Z": 1000.0
+				}
+			},
+			"Buffer": {
+				"Entries": [
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "47ec8bf343d2193393853294d80df4f1",
+			"PrefabID": "94f71e97444074f471578f8c90d46f54",
+			"PrefabObjectID": "21df1bcd448512abfd078ca9def310af",
+			"ParentID": "d8416ed14913c092bca112a5e70973d6"
+		},
+		{
+			"ID": "6acc12bb48ecef52422c2d8514a939f0",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9d831f9a46185148468006b9c9b7b561",
+			"Name": "CameraRotator",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 400.0
+				}
+			}
+		},
+		{
+			"ID": "2ddb008b4e9cf4e851bd21823a9509e0",
+			"TypeName": "Game.CameraRotator",
+			"ParentID": "6acc12bb48ecef52422c2d8514a939f0",
+			"V": {
+	"speed": 8.0
+}
+		},
+		{
+			"ID": "b25ab04a46460c560ffe8fb37ce3bb93",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "6acc12bb48ecef52422c2d8514a939f0",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 1204.0,
+					"Z": -300.0
+				},
+				"Orientation": {
+					"X": 0.45009845495224,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.8929789662361145
+				}
+			}
+		}
+	]
+}

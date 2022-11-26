@@ -1,0 +1,21 @@
+{
+	"ID": "a8f26e384fe268892b31158636b1f46d",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "e94d1aa6493a9b24d307b8adbea5265d",
+		"TypeName": "FlaxEngine.ParticleEffect",
+		"Name": "ExplosionParticle",
+		"Transform": {
+			"Scale": {
+				"X": 0.10000000149011612,
+				"Y": 0.10000000149011612,
+				"Z": 0.10000000149011612
+			}
+		},
+		"Overrides": [],
+		"ParticleSystem": "f0d7be934da7e943cbfb5080afe18b90"
+	}
+]
+}

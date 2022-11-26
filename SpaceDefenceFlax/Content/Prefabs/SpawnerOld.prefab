@@ -1,0 +1,39 @@
+{
+	"ID": "61485ee34378b7cf8a46f38b831b9d6e",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "1039828e40f438ae93df84b0e01166c0",
+		"TypeName": "FlaxEngine.StaticModel",
+		"Name": "Spawner",
+		"Transform": {
+			"Translation": {
+				"X": 400.0,
+				"Y": 100.0,
+				"Z": 400.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "010a0c314094e2c93ddfa7b3c0a74575",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "9701147843c1c152af75368a2164b4b4",
+		"TypeName": "Game.Spawner",
+		"ParentID": "1039828e40f438ae93df84b0e01166c0",
+		"V": {
+	"enemyPrefab": "9b66ec084651b6be7d7347aadc66e8a0",
+	"timerUIControl": "dba6a1d24d395a2d5eeee59ec5bd23e9"
+}
+	}
+]
+}

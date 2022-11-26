@@ -1,0 +1,1 @@
+{"Name":"GameTarget","Platform":"Windows","Configuration":"Development","BinaryModules":[{"Name":"FlaxEngine","NativePath":"FlaxGame.exe","ManagedPath":"FlaxEngine.CSharp.dll"},{"Name":"Game","ManagedPath":"Game.CSharp.dll"}]}

@@ -1,0 +1,31 @@
+{
+	"ID": "6c031ee341e2e4e8e393dd9963d038ee",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "c16f2dc44a59fb8664a6d598f9eb83b6",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "PlanetTerrain",
+		"Transform": {
+			"Scale": {
+				"X": 10.0,
+				"Y": 10.0,
+				"Z": 10.0
+			}
+		},
+		"Model": "c1b52da64a15f92726dd699865b0c302",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "39f2dcf34f411666f1baa084db6b2518",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

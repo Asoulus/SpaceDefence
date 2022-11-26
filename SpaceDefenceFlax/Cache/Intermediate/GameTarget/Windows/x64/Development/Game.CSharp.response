@@ -1,0 +1,60 @@
+/nologo
+/target:library
+/platform:AnyCPU
+/debug+
+/debug:portable
+/errorreport:prompt
+/preferreduilang:en-US
+/highentropyva+
+/deterministic
+/nostdlib+
+/errorendlocation
+/utf8output
+/warn:4
+/unsafe
+/fullpaths
+/langversion:7.3
+-nowarn:1591
+/optimize+
+/out:"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Binaries\GameTarget\Windows\x64\Development\Game.CSharp.dll"
+/doc:"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Binaries\GameTarget\Windows\x64\Development\Game.CSharp.xml"
+/define:BUILD_DEVELOPMENT;PLATFORM_WINDOWS;FLAX;FLAX_1;FLAX_1_3;FLAX_ASSERTIONS;FLAX_GAME
+/reference:"C:\Program Files (x86)\Flax\Flax_1.3\Source\Platforms\Editor\Windows\Mono\lib\mono\4.5-api\mscorlib.dll"
+/reference:"C:\Program Files (x86)\Flax\Flax_1.3\Source\Platforms\Editor\Windows\Mono\lib\mono\4.5-api\System.dll"
+/reference:"C:\Program Files (x86)\Flax\Flax_1.3\Source\Platforms\Editor\Windows\Mono\lib\mono\4.5-api\System.Xml.dll"
+/reference:"C:\Program Files (x86)\Flax\Flax_1.3\Source\Platforms\Editor\Windows\Mono\lib\mono\4.5-api\System.Core.dll"
+/reference:"C:\Program Files (x86)\Flax\Flax_1.3\Source\Platforms\Windows\Binaries\Game\x64\Development\FlaxEngine.CSharp.dll"
+/reference:"C:\Program Files (x86)\Flax\Flax_1.3\Source\Platforms\DotNet\Newtonsoft.Json.dll"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game.Gen.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Events\CameraRotator.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Events\LevelLoader.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Events\ObjectRotation.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Events\ScaleUpOverLifeTime.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Events\SinMovement.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Events\SubmenuAnimation.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\Bullet.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\CameraMovement.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\Enemy.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\Node.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\Shop.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\Spawner.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\Wave.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\Waypoints.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Managers\BuildManager.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Managers\GameManager.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Managers\PlayerStatisticsManager.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Managers\SpawnManager.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Managers\SubmenuManager.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\MouseRaycast.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Projectiles\BulletProjectile.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Projectiles\ExplosiveProjectile.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Projectiles\Projectile.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Testing.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Turrets\MissileTurret.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Turrets\SlowingTurret.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Turrets\StandardTurret.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Turrets\Turret.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\Turrets\TurretBlueprint.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\UI\MenuButton.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\UI\PauseMenu.cs"
+"C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\UI\SubmenuButton.cs"

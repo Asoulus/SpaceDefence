@@ -1,0 +1,51 @@
+{
+	"ID": "e60ae97d4be24602ffd279a63e632ee0",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "001ff7014c9e2ba8b8c534b69ac80070",
+		"TypeName": "FlaxEngine.StaticModel",
+		"Name": "Bullet",
+		"Transform": {
+			"Orientation": {
+				"X": 0.0,
+				"Y": 1.0,
+				"Z": -0.0,
+				"W": -4.371138828673793e-8
+			},
+			"Scale": {
+				"X": 0.15000000596046449,
+				"Y": 0.15000000596046449,
+				"Z": 0.15000000596046449
+			}
+		},
+		"Model": "9f72ef1a4d48edfba75e0a8fea191657",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "6ba7223c4af1578361c0efb24d030bf9",
+		"TypeName": "Game.BulletProjectile",
+		"ParentID": "001ff7014c9e2ba8b8c534b69ac80070",
+		"V": {
+	"_speed": 1000.0,
+	"_hitParticleSystem": "1aff57954a1ac9757f8ae59c6ad4575f"
+}
+	}
+]
+}

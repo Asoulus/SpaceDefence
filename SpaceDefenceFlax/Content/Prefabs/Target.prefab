@@ -1,0 +1,31 @@
+{
+	"ID": "169bd71644427d6cf385b9be54041647",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "931b9bfc41f8b8b101cffdaf27f4c5f3",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Target",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 100.0,
+				"Z": 0.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "2e81bbc24243cee6f79940af98879f64",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

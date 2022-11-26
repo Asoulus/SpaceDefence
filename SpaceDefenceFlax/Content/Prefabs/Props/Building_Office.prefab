@@ -1,0 +1,61 @@
+{
+	"ID": "402e575342b99387ca7c5e9eae0057e6",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "de7aa28f4da638b38e42d0afa4067eb1",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Building_Office",
+		"Transform": {
+			"Scale": {
+				"X": 0.5,
+				"Y": 1.0,
+				"Z": 1.0
+			}
+		}
+	},
+	{
+		"ID": "9b9516e34085bf77e3ab7fac27dd0fa1",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "de7aa28f4da638b38e42d0afa4067eb1",
+		"Name": "OfficeBuilding",
+		"Transform": {
+			"Translation": {
+				"X": -87.91964721679688,
+				"Y": 0.0,
+				"Z": -395.5310363769531
+			}
+		},
+		"Model": "cea2b9d14e191894ad276e897fef1045",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "9ee7a3ea494977e618ee5287c966bf66",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

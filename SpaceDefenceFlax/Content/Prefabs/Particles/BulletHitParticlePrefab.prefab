@@ -1,0 +1,21 @@
+{
+	"ID": "1aff57954a1ac9757f8ae59c6ad4575f",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "2e0df4ba406bd27efd2797bd9c57a42a",
+		"TypeName": "FlaxEngine.ParticleEffect",
+		"Name": "HitParticle",
+		"Transform": {
+			"Scale": {
+				"X": 0.15000000596046449,
+				"Y": 0.15000000596046449,
+				"Z": 0.15000000596046449
+			}
+		},
+		"Overrides": [],
+		"ParticleSystem": "8ea0ba984c99035fb3a1f3a7a9c11390"
+	}
+]
+}

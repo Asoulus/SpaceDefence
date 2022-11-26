@@ -1,0 +1,65 @@
+{
+	"ID": "ad014f7442672b8250212daaa38885f4",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "c8905e824fd056fcdcdc9ea1189ca123",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Spawner",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 63.93035888671875,
+				"Z": 0.0
+			}
+		}
+	},
+	{
+		"ID": "1aa8c1b147bda41e80cbfdabc8f2f136",
+		"TypeName": "Game.Spawner",
+		"ParentID": "c8905e824fd056fcdcdc9ea1189ca123",
+		"V": {
+	"timerUIControl": "dba6a1d24d395a2d5eeee59ec5bd23e9",
+	"_waves": [
+		{
+			"enemyPrefab": "e3b958e544795e4586c913b4501eacb6",
+			"enemyCount": 2,
+			"spawnDelayInMiliseconds": 500
+		},
+		{
+			"enemyPrefab": "e3b958e544795e4586c913b4501eacb6",
+			"enemyCount": 4,
+			"spawnDelayInMiliseconds": 1000
+		}
+	],
+	"_spawnSound": "a96ed25646e53db491023ba3b83f61a0"
+}
+	},
+	{
+		"ID": "fbc5a60447d14c292183a8921411b9d5",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "c8905e824fd056fcdcdc9ea1189ca123",
+		"Name": "SpawnerModel",
+		"Transform": {
+			"Orientation": {
+				"X": 0.0,
+				"Y": -0.7071068286895752,
+				"Z": 0.0,
+				"W": 0.7071068286895752
+			}
+		},
+		"Model": "b4ec02f64b547a9406c2e69f525d83f8",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "d42a77414b227f7d9878fdb7c3717753",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

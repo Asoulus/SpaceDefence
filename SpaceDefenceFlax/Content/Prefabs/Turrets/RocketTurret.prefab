@@ -1,0 +1,156 @@
+{
+	"ID": "204adc6c43952b4856605caaf010dc16",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "bdd7ea514b5844d69556db95f5787a6f",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "RocketTurret"
+	},
+	{
+		"ID": "918b2f9e4e442e085c4fbab29af4194a",
+		"TypeName": "Game.MissileTurret",
+		"ParentID": "bdd7ea514b5844d69556db95f5787a6f",
+		"V": {
+	"_firePoint": "626f81d64e0e741499424e975f5d8281",
+	"_projectilePrefab": "35782e974beddfdeb3849a816f5f8a5e",
+	"range": 800.0,
+	"fireRate": 0.5,
+	"partToRotate": "e469b1a1496544af6e13b291e953a8ac",
+	"enemyLayer": {
+		"Mask": 4
+	},
+	"fireSound": "663ca27941fa9553c02fe88ad8f786b9"
+}
+	},
+	{
+		"ID": "0a336e974aa732e92527aeb831c195a0",
+		"PrefabID": "04cc30184b74df01419e139ed298df81",
+		"PrefabObjectID": "ff6330b6433641c77157dbb772b92353",
+		"ParentID": "bdd7ea514b5844d69556db95f5787a6f",
+		"Transform": {
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			}
+		},
+		"Buffer": {
+			"Entries": [
+				{},
+				{},
+				{}
+			]
+		}
+	},
+	{
+		"ID": "e469b1a1496544af6e13b291e953a8ac",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "bdd7ea514b5844d69556db95f5787a6f",
+		"Name": "PartToRotate",
+		"Transform": {
+			"Translation": {
+				"X": 2.0,
+				"Y": 37.0,
+				"Z": 0.0
+			}
+		}
+	},
+	{
+		"ID": "feef7859481387c8a80afb9c4ae513ff",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "e469b1a1496544af6e13b291e953a8ac",
+		"Name": "RocketTurretHead",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": -35.47923278808594,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 1.0,
+				"Z": -0.0,
+				"W": -4.371138828673793e-8
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			}
+		},
+		"Model": "44bda7fc41254400e7bcf484007c99e0",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "f6dcebd04f1b307c37c1f582715007e0",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "626f81d64e0e741499424e975f5d8281",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "feef7859481387c8a80afb9c4ae513ff",
+		"Name": "FirePoint",
+		"Transform": {
+			"Translation": {
+				"X": -4.0,
+				"Y": 266.2213134765625,
+				"Z": -72.40919494628906
+			},
+			"Scale": {
+				"X": 2.0,
+				"Y": 2.0,
+				"Z": 2.0
+			}
+		}
+	},
+	{
+		"ID": "bee3a7304f62c0cc91acc5b9bab913f0",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "bdd7ea514b5844d69556db95f5787a6f",
+		"Name": "BoxCollider",
+		"Center": {
+			"X": 0.0,
+			"Y": 100.0,
+			"Z": 0.0
+		},
+		"Size": {
+			"X": 100.0,
+			"Y": 200.0,
+			"Z": 100.0
+		}
+	},
+	{
+		"ID": "663ca27941fa9553c02fe88ad8f786b9",
+		"TypeName": "FlaxEngine.AudioSource",
+		"ParentID": "bdd7ea514b5844d69556db95f5787a6f",
+		"Name": "AudioSource",
+		"Clip": "871262be48415c572cb6f2b3dac5be2e",
+		"Volume": 0.5
+	}
+]
+}

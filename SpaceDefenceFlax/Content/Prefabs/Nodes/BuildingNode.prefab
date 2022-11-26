@@ -1,0 +1,52 @@
+{
+	"ID": "c492d0024cd8f431ddabc0a8d7334651",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+		"TypeName": "FlaxEngine.StaticModel",
+		"Name": "BuildingNode",
+		"Model": "d8e5a6194dc73991740f799dda2dc23e",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "e6873b1140b064532b192688c5773aee",
+		"TypeName": "Game.Node",
+		"ParentID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+		"V": {}
+	},
+	{
+		"ID": "93df4f0246be9c74bc6a81b17e81c729",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "9b7bad3e46f9acf3adfbaaaa4f9023aa",
+		"Name": "BoxCollider",
+		"Size": {
+			"X": 200.0,
+			"Y": 40.0,
+			"Z": 200.0
+		}
+	}
+]
+}

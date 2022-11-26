@@ -1,0 +1,87 @@
+{
+	"ID": "ea6257094dfb9ad0b6f5b79387b80c6c",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "65c7d29e4ba3ec2e94259db4f3397d39",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"Name": "SlowEnemy",
+		"Layer": 2,
+		"Tag": "Enemy",
+		"Center": {
+			"X": 0.0,
+			"Y": 25.0,
+			"Z": 0.0
+		},
+		"Size": {
+			"X": 50.0,
+			"Y": 50.0,
+			"Z": 200.0
+		}
+	},
+	{
+		"ID": "4e2881cd41b9ef8995b5a58c99e55d37",
+		"TypeName": "Game.Enemy",
+		"ParentID": "65c7d29e4ba3ec2e94259db4f3397d39",
+		"V": {
+	"_speed": 250.0,
+	"_health": 30.0
+}
+	},
+	{
+		"ID": "d802a0ec48d557958fca81ba2290bd0f",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "65c7d29e4ba3ec2e94259db4f3397d39",
+		"Name": "StandardEnemyModel",
+		"Transform": {
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.7071068286895752,
+				"Z": 0.0,
+				"W": 0.7071068286895752
+			},
+			"Scale": {
+				"X": 0.05000000074505806,
+				"Y": 0.05000000074505806,
+				"Z": 0.05000000074505806
+			}
+		},
+		"Model": "53fcee8a46cb467f995e568b8f2c5a14",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "7851d0f14079c19ee5d8e4adb9baa575",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "d42a77414b227f7d9878fdb7c3717753",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "df59986c4ff8588d8dd77093adfaf563",
+		"TypeName": "FlaxEngine.CharacterController",
+		"ParentID": "65c7d29e4ba3ec2e94259db4f3397d39",
+		"Name": "CharacterController"
+	}
+]
+}

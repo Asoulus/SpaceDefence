@@ -1,0 +1,81 @@
+{
+	"ID": "28e64de0467bb173037cde9dd172db33",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "3d43b6e946c7e594be0b8386b694014d",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"Name": "SlowEnemy",
+		"Layer": 2,
+		"Tag": "Enemy",
+		"Center": {
+			"X": 0.0,
+			"Y": 30.0,
+			"Z": 0.0
+		},
+		"Size": {
+			"X": 50.0,
+			"Y": 50.0,
+			"Z": 200.0
+		}
+	},
+	{
+		"ID": "31ec975749f5a0224714078e5f400326",
+		"TypeName": "Game.Enemy",
+		"ParentID": "3d43b6e946c7e594be0b8386b694014d",
+		"V": {
+	"_speed": 160.0,
+	"_value": 250
+}
+	},
+	{
+		"ID": "23d4ae234903c302ae0d8398e88b711d",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "3d43b6e946c7e594be0b8386b694014d",
+		"Name": "SlowEnemyModel",
+		"Transform": {
+			"Scale": {
+				"X": 0.05000000074505806,
+				"Y": 0.05000000074505806,
+				"Z": 0.05000000074505806
+			}
+		},
+		"Model": "d32f3caa4ee428e699e0d289142e0e27",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "7851d0f14079c19ee5d8e4adb9baa575",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "d42a77414b227f7d9878fdb7c3717753",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "43e454fa4c2b317c78aa6abebbad4908",
+		"TypeName": "FlaxEngine.CharacterController",
+		"ParentID": "3d43b6e946c7e594be0b8386b694014d",
+		"Name": "CharacterController"
+	}
+]
+}

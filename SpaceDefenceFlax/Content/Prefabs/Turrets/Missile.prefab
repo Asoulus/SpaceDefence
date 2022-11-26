@@ -1,0 +1,50 @@
+{
+	"ID": "35782e974beddfdeb3849a816f5f8a5e",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "a6ff17c54eacd3c9abc1c5bd2ecdb550",
+		"TypeName": "FlaxEngine.StaticModel",
+		"Name": "Rocket",
+		"Transform": {
+			"Scale": {
+				"X": 0.20000000298023225,
+				"Y": 0.20000000298023225,
+				"Z": 0.20000000298023225
+			}
+		},
+		"Model": "4fbe466e4b91645b8ad25e94a491e25e",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "96b729f74558612130d4b088bf14056d",
+		"TypeName": "Game.ExplosiveProjectile",
+		"ParentID": "a6ff17c54eacd3c9abc1c5bd2ecdb550",
+		"V": {
+	"_explosionRadius": 200.0,
+	"enemyLayer": {
+		"Mask": 4
+	},
+	"_speed": 1250.0,
+	"_damage": 3,
+	"_hitParticleSystem": "a8f26e384fe268892b31158636b1f46d"
+}
+	}
+]
+}

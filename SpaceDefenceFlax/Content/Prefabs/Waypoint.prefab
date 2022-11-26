@@ -1,0 +1,24 @@
+{
+	"ID": "f18edfa940001549a2a1e5b7340bad7c",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "0fb3ee824b79d513bbb79e9683526dc5",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Waypoint",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 82.63967895507813,
+				"Z": 0.0
+			},
+			"Scale": {
+				"X": 2.0,
+				"Y": 2.0,
+				"Z": 2.0
+			}
+		}
+	}
+]
+}

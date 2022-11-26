@@ -1,0 +1,48 @@
+{
+	"ID": "286d3ebc485af9cdc612e093ce6610cd",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "7206c6fc45c831f8f60b068160f8c7b5",
+		"TypeName": "FlaxEngine.StaticModel",
+		"Name": "ServiceBuilding",
+		"Transform": {
+			"Scale": {
+				"X": 1.0,
+				"Y": 2.0,
+				"Z": 1.0
+			}
+		},
+		"Model": "a602ab9c4baec618360fd6a1b6a2176e",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "9ee7a3ea494977e618ee5287c966bf66",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

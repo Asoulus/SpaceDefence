@@ -1,0 +1,12 @@
+{
+	"ID": "f04554ee43636b65ade8e89a0f548749",
+	"TypeName": "FlaxEngine.LocalizedStringTable",
+	"EngineBuild": 6228,
+	"Data": {
+	"Locale": "pl-PL",
+	"FallbackTable": "f04554ee43636b65ade8e89a0f548749",
+	"Entries": {
+		"Scene.##_UI_##.UICanvas.TextRender.Text": "s"
+	}
+}
+}

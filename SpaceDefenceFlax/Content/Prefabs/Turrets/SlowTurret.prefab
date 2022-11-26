@@ -1,0 +1,116 @@
+{
+	"ID": "c743b9a843478fb348973f8ce2617a60",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "6cdeaede45661425b677ce804fb842a8",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "SlowTurret",
+		"Transform": {
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			}
+		}
+	},
+	{
+		"ID": "7df4ffcf4bddf0afdb3c859639ee130c",
+		"TypeName": "Game.SlowingTurret",
+		"ParentID": "6cdeaede45661425b677ce804fb842a8",
+		"V": {
+	"_slowPercentage": 20.0,
+	"_damageAmount": 1,
+	"slowingParticle": "11f7bcce45e6f2c454268891fdc968e0",
+	"range": 400.0,
+	"fireRate": 0.2,
+	"enemyLayer": {
+		"Mask": 4
+	},
+	"fireSound": "74186fd544f8c89d450bdba098e5a14e"
+}
+	},
+	{
+		"ID": "82b4247f4c4e6aef911284b391f7ac75",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "6cdeaede45661425b677ce804fb842a8",
+		"Name": "SlowTurretHead",
+		"Model": "b4de167640cf8312b0cf59bcb41d52e2",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "ac0f8e9143b0f55fda230a90a8a2f62f",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "f6dcebd04f1b307c37c1f582715007e0",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "be48c8ea49ad0a26d24725b9c477e079",
+		"TypeName": "Game.ObjectRotation",
+		"ParentID": "82b4247f4c4e6aef911284b391f7ac75",
+		"V": {
+	"rotationDegrees": 50.0
+}
+	},
+	{
+		"ID": "7eaa6aff430b448a09995eb7e9146547",
+		"TypeName": "Game.SinMovement",
+		"ParentID": "82b4247f4c4e6aef911284b391f7ac75",
+		"V": {
+	"frequency": 1.0,
+	"magnitude": 20.0
+},
+		"Enabled": false
+	},
+	{
+		"ID": "96111bf54ac6a0b4f97b02aed7f6ce80",
+		"PrefabID": "04cc30184b74df01419e139ed298df81",
+		"PrefabObjectID": "ff6330b6433641c77157dbb772b92353",
+		"ParentID": "6cdeaede45661425b677ce804fb842a8",
+		"Buffer": {
+			"Entries": [
+				{},
+				{},
+				{}
+			]
+		}
+	},
+	{
+		"ID": "74186fd544f8c89d450bdba098e5a14e",
+		"TypeName": "FlaxEngine.AudioSource",
+		"ParentID": "6cdeaede45661425b677ce804fb842a8",
+		"Name": "AudioSource",
+		"Transform": {
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			}
+		},
+		"Clip": "c1e41ee343c06ed87df9ce89ebca49af",
+		"Volume": 0.5
+	}
+]
+}

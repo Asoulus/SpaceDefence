@@ -1,0 +1,38 @@
+{
+	"ID": "11f7bcce45e6f2c454268891fdc968e0",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "6160ad0b4b9c3e5d4d164c902c6195ee",
+		"TypeName": "FlaxEngine.ParticleEffect",
+		"Name": "SlowParticle",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 50.0,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.7071068286895752,
+				"Y": 0.0,
+				"Z": 0.0,
+				"W": 0.7071068286895752
+			},
+			"Scale": {
+				"X": 0.009999999776482582,
+				"Y": 0.009999999776482582,
+				"Z": 0.009999999776482582
+			}
+		},
+		"Overrides": [],
+		"ParticleSystem": "d04a32fb472e5c814ed35a931883cf31"
+	},
+	{
+		"ID": "3be8943b40c935bd80ecd6b7f14c4e18",
+		"TypeName": "Game.ScaleUpOverLifeTime",
+		"ParentID": "6160ad0b4b9c3e5d4d164c902c6195ee",
+		"V": {}
+	}
+]
+}

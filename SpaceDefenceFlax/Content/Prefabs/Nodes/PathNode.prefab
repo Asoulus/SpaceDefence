@@ -1,0 +1,46 @@
+{
+	"ID": "94f71e97444074f471578f8c90d46f54",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6228,
+	"Data": [
+	{
+		"ID": "2fcf237848254a07d1a5bc815da35ade",
+		"TypeName": "FlaxEngine.StaticModel",
+		"Name": "PathNode",
+		"Model": "f80a045b4edbb0d3fd016aaae49a9f15",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "0fc14fa045b71c5b99fa0184be600fda",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "7851d0f14079c19ee5d8e4adb9baa575",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "094a379a4f5aaee26f2ecda40b917324",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "21df1bcd448512abfd078ca9def310af",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "2fcf237848254a07d1a5bc815da35ade",
+		"Name": "BoxCollider",
+		"Size": {
+			"X": 200.0,
+			"Y": 50.0,
+			"Z": 200.0
+		}
+	}
+]
+}

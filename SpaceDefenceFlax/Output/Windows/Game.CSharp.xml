@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Game.CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:Game.SubmenuAnimation">
+            <summary>
+            SubmenuAnimation Script.
+            </summary>
+        </member>
+        <member name="M:Game.MouseRaycast.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Testing.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Testing.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.Testing.OnUpdate">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>
