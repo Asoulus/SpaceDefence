@@ -1,0 +1,25 @@
+[00:00:003] Flax.Build 1.0.8096
+[00:00:003]   Arguments: -log -genproject
+[00:00:003]   Workspace: C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax
+[00:00:003]   Engine: C:\Program Files (x86)\Flax\Flax_1.3
+[00:00:008] Loading project file from "C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\SpaceDefence.flaxproj"...
+[00:00:150] Loading project file from "C:\Program Files (x86)\Flax\Flax_1.3\Flax.flaxproj"...
+[00:00:161] Loaded project Flax, version 1.3.6228
+[00:00:161] Loaded project SpaceDefence, version 1.0
+[00:00:611] Generating project files...
+[00:00:617] Missing Android SDK. Cannot build for Android platform.
+[00:00:619] Missing Linux Toolchain. Cannot build for Linux platform.
+[00:00:628] Found Windows SDK v10_0_18362_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:640] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+[00:00:643] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110
+[00:00:697] Engine build version: 1.3.6228
+[00:00:722] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:00:723] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
+[00:01:583] Game -> C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game.csproj
+[00:02:515] Saved file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game.csproj
+[00:02:515] Project BuildScripts -> C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Cache\Projects\BuildScripts.csproj
+[00:02:515] Saved file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Cache\Projects\BuildScripts.csproj
+[00:02:516] Solution -> C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\SpaceDefence.sln
+[00:02:561] Saved file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\SpaceDefence.sln
+[00:02:561] Total time: 00:00:02.5658284
+[00:02:561] End.

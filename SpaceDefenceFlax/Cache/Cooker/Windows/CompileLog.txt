@@ -3,112 +3,105 @@
 [00:00:002]   Workspace: C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax
 [00:00:002]   Engine: C:\Program Files (x86)\Flax\Flax_1.3
 [00:00:006] Loading project file from "C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\SpaceDefence.flaxproj"...
-[00:00:149] Loading project file from "C:\Program Files (x86)\Flax\Flax_1.3\Flax.flaxproj"...
-[00:00:159] Loaded project Flax, version 1.3.6228
-[00:00:159] Loaded project SpaceDefence, version 1.0
-[00:00:608] Building targets...
-[00:00:623] Missing Android SDK. Cannot build for Android platform.
+[00:00:150] Loading project file from "C:\Program Files (x86)\Flax\Flax_1.3\Flax.flaxproj"...
+[00:00:160] Loaded project Flax, version 1.3.6228
+[00:00:160] Loaded project SpaceDefence, version 1.0
+[00:00:606] Building targets...
+[00:00:621] Missing Android SDK. Cannot build for Android platform.
 [00:00:625] Missing Linux Toolchain. Cannot build for Linux platform.
 [00:00:633] Found Windows SDK v10_0_18362_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:00:646] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
-[00:00:649] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110
-[00:00:653] Building C# only
-[00:00:653] Building target GameTarget in Development for Windows x64
-[00:00:711] Building referenced target Flax
-[00:00:740] Parsing API bindings for Profiler (FlaxEngine)
-[00:00:816] Parsing API bindings for Platform (FlaxEngine)
-[00:00:894] Parsing API bindings for Core (FlaxEngine)
-[00:01:680] Parsing API bindings for Visject (FlaxEngine)
-[00:01:692] Parsing API bindings for Animations (FlaxEngine)
-[00:01:740] Parsing API bindings for Audio (FlaxEngine)
-[00:01:752] Parsing API bindings for TextureTool (FlaxEngine)
-[00:01:754] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
-[00:01:755] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
-[00:01:758] Parsing API bindings for Graphics (FlaxEngine)
-[00:01:990] Parsing API bindings for Utilities (FlaxEngine)
-[00:01:993] Parsing API bindings for Particles (FlaxEngine)
-[00:02:013] Parsing API bindings for Content (FlaxEngine)
-[00:02:070] Parsing API bindings for Debug (FlaxEngine)
-[00:02:092] Parsing API bindings for Foliage (FlaxEngine)
-[00:02:101] Parsing API bindings for Renderer (FlaxEngine)
-[00:02:120] Parsing API bindings for Render2D (FlaxEngine)
-[00:02:172] Parsing API bindings for Input (FlaxEngine)
-[00:02:200] Parsing API bindings for Physics (FlaxEngine)
-[00:02:302] Parsing API bindings for Scripting (FlaxEngine)
-[00:02:322] Parsing API bindings for Serialization (FlaxEngine)
-[00:02:324] Parsing API bindings for Level (FlaxEngine)
-[00:02:457] Parsing API bindings for Navigation (FlaxEngine)
-[00:02:468] Parsing API bindings for Networking (FlaxEngine)
-[00:02:478] Parsing API bindings for Streaming (FlaxEngine)
-[00:02:481] Parsing API bindings for Terrain (FlaxEngine)
-[00:02:489] Parsing API bindings for Threading (FlaxEngine)
-[00:02:493] Parsing API bindings for Localization (FlaxEngine)
-[00:02:499] Parsing API bindings for UI (FlaxEngine)
-[00:02:506] Parsing API bindings for Online (FlaxEngine)
-[00:02:508] Parsing API bindings for Engine (FlaxEngine)
-[00:02:518] Building module tracy
-[00:02:522] Building module Profiler
-[00:02:522] Building module Platform
-[00:02:522] Building module fmt
-[00:02:522] Building module Core
-[00:02:522] Building module Main
-[00:02:522] Building module Visject
-[00:02:522] Building module Animations
-[00:02:522] Building module minimp3
-[00:02:522] Building module ogg
-[00:02:522] Building module vorbis
-[00:02:522] Building module AudioTool
-[00:02:522] Building module Audio
-[00:02:522] Building module lz4
-[00:02:522] Building module DirectXTex
-[00:02:522] Building module TextureTool
-[00:02:522] Building module GraphicsDeviceNull
-[00:02:522] Building module GraphicsDeviceDX11
-[00:02:522] Building module GraphicsDeviceDX12
-[00:02:522] Building module Graphics
-[00:02:522] Building module Utilities
-[00:02:522] Building module Particles
-[00:02:522] Building module Content
-[00:02:522] Building module Debug
-[00:02:522] Building module Foliage
-[00:02:522] Building module Renderer
-[00:02:522] Building module freetype
-[00:02:522] Building module Render2D
-[00:02:522] Building module Input
-[00:02:522] Building module PhysX
-[00:02:522] Building module Physics
-[00:02:522] Building module mono
-[00:02:522] Building module Scripting
-[00:02:522] Building module rapidjson
-[00:02:522] Building module Serialization
-[00:02:522] Building module Level
-[00:02:522] Building module recastnavigation
-[00:02:522] Building module Navigation
-[00:02:522] Building module Networking
-[00:02:522] Building module Streaming
-[00:02:522] Building module Terrain
-[00:02:522] Building module Threading
-[00:02:522] Building module Localization
-[00:02:522] Building module UI
-[00:02:522] Building module Online
-[00:02:522] Building module Engine
-[00:02:524] Skipping build for target FlaxGame
-[00:02:526] Engine build version: 1.3.6228
-[00:02:550] Generating binary module bindings for Game
-[00:02:556] Skipped saving file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game.Gen.cs
-[00:02:556] Building module Game
-[00:02:565] Saved file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Cache/Intermediate\GameTarget\Windows\x64\Development\Game.CSharp.response
-[00:02:597] Saved file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Binaries\GameTarget\Windows\x64\Development\GameTarget.Build.json
-[00:02:605] Found 3 valid and 0 invalid actions in Task Graph cache
-[00:02:606] 
-[00:02:606] Total 3 tasks
-[00:02:607] Executing 3 tasks using 3 threads
-[00:02:610] Compiling C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Binaries\GameTarget\Windows\x64\Development\Game.CSharp.dll
-[00:02:638] C:\Program Files (x86)\Flax\Flax_1.3\Source\Platforms\DotNet\Newtonsoft.Json.dll
-[00:02:640] C:\Program Files (x86)\Flax\Flax_1.3\Source\Platforms\DotNet\Newtonsoft.Json.xml
-[00:02:641] 1 File(s) copied
-[00:02:644] 1 File(s) copied
-[00:02:713] C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game\MyScripts\GameElements\CameraMovement.cs(17,23,17,30): warning CS0169: The field 'CameraMovement._scroll' is never used
-[00:02:718] Done!
-[00:02:722] Total time: 00:00:02.7279329
-[00:02:722] End.
+[00:00:645] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+[00:00:648] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110
+[00:00:652] Building C# only
+[00:00:652] Building target GameTarget in Development for Windows x64
+[00:00:678] Building referenced target Flax
+[00:00:705] Parsing API bindings for Profiler (FlaxEngine)
+[00:00:784] Parsing API bindings for Platform (FlaxEngine)
+[00:00:864] Parsing API bindings for Core (FlaxEngine)
+[00:01:793] Parsing API bindings for Visject (FlaxEngine)
+[00:01:805] Parsing API bindings for Animations (FlaxEngine)
+[00:01:850] Parsing API bindings for Audio (FlaxEngine)
+[00:01:863] Parsing API bindings for TextureTool (FlaxEngine)
+[00:01:865] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:01:866] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
+[00:01:868] Parsing API bindings for Graphics (FlaxEngine)
+[00:02:112] Parsing API bindings for Utilities (FlaxEngine)
+[00:02:114] Parsing API bindings for Particles (FlaxEngine)
+[00:02:136] Parsing API bindings for Content (FlaxEngine)
+[00:02:200] Parsing API bindings for Debug (FlaxEngine)
+[00:02:223] Parsing API bindings for Foliage (FlaxEngine)
+[00:02:232] Parsing API bindings for Renderer (FlaxEngine)
+[00:02:250] Parsing API bindings for Render2D (FlaxEngine)
+[00:02:300] Parsing API bindings for Input (FlaxEngine)
+[00:02:328] Parsing API bindings for Physics (FlaxEngine)
+[00:02:431] Parsing API bindings for Scripting (FlaxEngine)
+[00:02:451] Parsing API bindings for Serialization (FlaxEngine)
+[00:02:453] Parsing API bindings for Level (FlaxEngine)
+[00:02:596] Parsing API bindings for Navigation (FlaxEngine)
+[00:02:606] Parsing API bindings for Networking (FlaxEngine)
+[00:02:617] Parsing API bindings for Streaming (FlaxEngine)
+[00:02:619] Parsing API bindings for Terrain (FlaxEngine)
+[00:02:628] Parsing API bindings for Threading (FlaxEngine)
+[00:02:632] Parsing API bindings for Localization (FlaxEngine)
+[00:02:639] Parsing API bindings for UI (FlaxEngine)
+[00:02:644] Parsing API bindings for Online (FlaxEngine)
+[00:02:646] Parsing API bindings for Engine (FlaxEngine)
+[00:02:656] Building module tracy
+[00:02:661] Building module Profiler
+[00:02:661] Building module Platform
+[00:02:661] Building module fmt
+[00:02:661] Building module Core
+[00:02:661] Building module Main
+[00:02:661] Building module Visject
+[00:02:661] Building module Animations
+[00:02:661] Building module minimp3
+[00:02:661] Building module ogg
+[00:02:661] Building module vorbis
+[00:02:661] Building module AudioTool
+[00:02:661] Building module Audio
+[00:02:661] Building module lz4
+[00:02:661] Building module DirectXTex
+[00:02:661] Building module TextureTool
+[00:02:661] Building module GraphicsDeviceNull
+[00:02:661] Building module GraphicsDeviceDX11
+[00:02:661] Building module GraphicsDeviceDX12
+[00:02:661] Building module Graphics
+[00:02:661] Building module Utilities
+[00:02:661] Building module Particles
+[00:02:661] Building module Content
+[00:02:661] Building module Debug
+[00:02:661] Building module Foliage
+[00:02:661] Building module Renderer
+[00:02:661] Building module freetype
+[00:02:661] Building module Render2D
+[00:02:661] Building module Input
+[00:02:661] Building module PhysX
+[00:02:661] Building module Physics
+[00:02:661] Building module mono
+[00:02:661] Building module Scripting
+[00:02:661] Building module rapidjson
+[00:02:661] Building module Serialization
+[00:02:661] Building module Level
+[00:02:661] Building module recastnavigation
+[00:02:661] Building module Navigation
+[00:02:661] Building module Networking
+[00:02:661] Building module Streaming
+[00:02:661] Building module Terrain
+[00:02:661] Building module Threading
+[00:02:661] Building module Localization
+[00:02:661] Building module UI
+[00:02:661] Building module Online
+[00:02:661] Building module Engine
+[00:02:663] Skipping build for target FlaxGame
+[00:02:664] Engine build version: 1.3.6228
+[00:02:680] Generating binary module bindings for Game
+[00:02:685] Skipped saving file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Source\Game.Gen.cs
+[00:02:685] Building module Game
+[00:02:693] Skipped saving file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Cache/Intermediate\GameTarget\Windows\x64\Development\Game.CSharp.response
+[00:02:725] Skipped saving file to C:\Users\PC\Documents\GitHub\SpaceDefence\SpaceDefenceFlax\Binaries\GameTarget\Windows\x64\Development\GameTarget.Build.json
+[00:02:734] Found 6 valid and 0 invalid actions in Task Graph cache
+[00:02:735] 
+[00:02:735] Total 3 tasks
+[00:02:736] Done!
+[00:02:736] Total time: 00:00:02.7417482
+[00:02:736] End.

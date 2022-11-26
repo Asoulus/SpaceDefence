@@ -9,13 +9,13 @@
 		<Window Typename="::FlaxEditor.Windows.GameWindow">
 			<Data ShowGUI="True" ShowDebugDraw="False" />
 		</Window>
-		<Panel DockState="10" SplitterValue="0.24" SelectedTab="0">
+		<Panel DockState="10" SplitterValue="0.2822917" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.PropertiesWindow" />
 			<Panel DockState="7" SplitterValue="0.25" SelectedTab="0">
 				<Window Typename="::FlaxEditor.Windows.ToolboxWindow" />
 			</Panel>
 		</Panel>
-		<Panel DockState="9" SplitterValue="0.37" SelectedTab="0">
+		<Panel DockState="9" SplitterValue="0.2018828" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.ContentWindow">
 				<Data Split="0,2" Scale="1" ShowFileExtensions="False" ViewType="Tiles" />
 			</Window>
@@ -26,7 +26,7 @@
 				<Data LogTypeShowMask="15" />
 			</Window>
 		</Panel>
-		<Panel DockState="8" SplitterValue="0.25" SelectedTab="0">
+		<Panel DockState="8" SplitterValue="0.2053364" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.SceneTreeWindow" />
 		</Panel>
 	</MasterPanel>

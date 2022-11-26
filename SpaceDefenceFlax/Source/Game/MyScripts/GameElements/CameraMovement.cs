@@ -18,7 +18,7 @@ namespace Game
 
         [Header("Attirbutes")]
         public float minY = -700f;
-        public float maxY = 0;
+        public float maxY = 1500f;
         public float minX = -1000f;
         public float maxX = 1000f;
         public float minZ = -1000f;

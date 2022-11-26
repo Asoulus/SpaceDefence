@@ -42,7 +42,7 @@
 			"TypeName": "Game.CameraMovement",
 			"ParentID": "022721bf47980707347674bff6993611",
 			"V": {
-	"maxY": 10.0,
+	"maxY": 1000.0,
 	"MoveSpeed": 25.0
 }
 		},
@@ -360,7 +360,7 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 574.5,
+					"Y": 616.5,
 					"Z": 0.0
 				}
 			},
@@ -390,7 +390,7 @@
 	},
 	"Offsets": {
 		"Left": 0.0,
-		"Right": -557.0,
+		"Right": -1014.0,
 		"Top": -124.5,
 		"Bottom": 125.0
 	},
@@ -1266,7 +1266,7 @@
 			"Transform": {
 				"Translation": {
 					"X": 492.0,
-					"Y": 324.0,
+					"Y": 366.0,
 					"Z": 0.0
 				}
 			},
@@ -1362,8 +1362,8 @@
 			"Name": "MainMenu_Btn",
 			"Transform": {
 				"Translation": {
-					"X": 654.0,
-					"Y": 324.0,
+					"X": 197.0,
+					"Y": 366.0,
 					"Z": 0.0
 				}
 			},
@@ -1459,8 +1459,8 @@
 			"Name": "Resume_Btn",
 			"Transform": {
 				"Translation": {
-					"X": 315.0,
-					"Y": 111.5,
+					"X": 86.5,
+					"Y": 153.5,
 					"Z": 0.0
 				}
 			},
@@ -1709,7 +1709,7 @@
 			"Transform": {
 				"Translation": {
 					"X": 115.0,
-					"Y": 299.0,
+					"Y": 341.0,
 					"Z": 0.0
 				}
 			},
@@ -1805,8 +1805,8 @@
 			"Name": "MainMenu_Btn",
 			"Transform": {
 				"Translation": {
-					"X": 683.0,
-					"Y": 299.0,
+					"X": 226.0,
+					"Y": 341.0,
 					"Z": 0.0
 				}
 			},
